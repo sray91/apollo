@@ -1,11 +1,10 @@
 module.exports = {
-  content: ["./src/pages/*.{html,js}", "./src/components/*.{html,js}"],
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+  ],
   theme: {
-    extend: {
-      fontFamily: {
-        'poppins': ['Poppins', 'sans-serif'],
-      },
-    },
-    plugins: [],
-  }
+    extend: {},
+  },
+  plugins: [],
 }
