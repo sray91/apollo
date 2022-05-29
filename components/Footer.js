@@ -1,5 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
+// Import the FontAwesomeIcon component
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// import the icons you need
+import {
+  faSearch,
+  faAmbulance,
+  faAnchor,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -10,6 +19,7 @@ const Footer = () => {
       <Link href="https://twitter.com">
         <a className="px-6">Twitter</a>
       </Link>
+      <FontAwesomeIcon icon="fa-brands fa-twitter" />
     </div>
   )
 }
