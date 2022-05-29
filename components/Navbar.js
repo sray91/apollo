@@ -14,6 +14,12 @@ const Navbar = () => {
                         width={50}
                         height={50}
                     />
+                    <Image 
+                        src="/apolloLogoWords.svg"
+                        alt="Apollo Logo w/ Words"
+                        width={100}
+                        height={50}
+                    />
                 </a>
             </Link>
         </div>
