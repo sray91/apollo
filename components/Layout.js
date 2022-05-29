@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Layout = () => {
   return (
-    <div>
+    <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-black">
         <Image
             src="/apolloHero.svg"
             alt="Hero image of Apollo Systems logo"

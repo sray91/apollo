@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-black">
+    <div className="bg-black">
       <Head>
         <title>Apollo Systems</title>
         <link rel="icon" href="/favicon.ico" />
