@@ -1,18 +1,16 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
-import Layout from '../components/Layout'
+import Hero from '../components/Hero'
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-black">
+    <>
       <Head>
         <title>Apollo Systems</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
-      <Layout />
-    </div>
+      <Hero />
+    </>
   )
 }
 

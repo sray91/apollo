@@ -1,17 +1,12 @@
-import React from 'react'
-import Image from 'next/image'
+import Navbar from "./Navbar"
+import Footer from "./Footer"
 
-const Layout = () => {
+export default function Layout({children}) {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-black">
-        <Image
-            src="/apolloHero.svg"
-            alt="Hero image of Apollo Systems logo"
-            width={500}
-            height={500}
-        />
+    <div>
+      <Navbar />
+      {children}
+      <Footer />
     </div>
   )
 }
-
-export default Layout
