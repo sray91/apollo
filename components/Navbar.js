@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <div className="flex bg-black text-white h-20 justify-between items-center">
-        <div>
+        <div className="px-6">
             <Link href="/">
                 <a>
                     <Image
@@ -17,7 +17,7 @@ const Navbar = () => {
                 </a>
             </Link>
         </div>
-        <div>
+        <div className="font-bold">
             <Link href="/">
                 <a className="px-6">Home</a>
             </Link>
