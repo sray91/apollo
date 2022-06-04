@@ -47,19 +47,21 @@ const Sidebar = () => {
         </button>
       )
     }
-      <div className={`top-0 right-0 fixed bg-purple-400/60 w-full h-full p-10 ${isOpen ? 'translate-x-0':'translate-x-full'} ease-in-out duration-300`}>
-        <Link className="justify-center" href="/">
-          <a><h2 className="text-3xl text-white px-6">Home</h2></a>
-        </Link>
-        <Link href="/">
-          <a><h2 className="text-3xl text-white px-6">Services</h2></a>
-        </Link>
-        <Link href="/about">
-          <a><h2 className="text-3xl text-white px-6">About</h2></a>
-        </Link>
-        <Link href="/contact">
-          <a><h2 className="text-3xl text-white px-6">Contact</h2></a>
-        </Link>
+      <div className={`top-0 right-0 fixed bg-purple-400/60 w-full h-full p-10 flex justify-center ${isOpen ? 'translate-x-0':'translate-x-full'} ease-in-out duration-300`}>
+        <div className="text-3xl text-white p-6 text-center font-bold">
+          <Link href="/">
+            <a><h2>Home</h2></a>
+          </Link>
+          <Link href="/">
+          <a><h2>Services</h2></a>
+          </Link>
+          <Link href="/about">
+          <a><h2>About</h2></a>
+          </Link>
+          <Link href="/contact">
+          <a><h2>Contact</h2></a>
+          </Link>
+        </div>
       </div>
     </div>
   )
