@@ -1,4 +1,4 @@
-![ApolloLogoPNG](https://user-images.githubusercontent.com/65131940/172015738-ee373333-a96a-4027-a19f-c0591eb33c51.png)
+![apolloLogoWords](https://user-images.githubusercontent.com/65131940/172015775-8e78f993-440a-44f7-a3e2-b6dcf14b87d6.svg)
 
 Apollo Systems website
 
