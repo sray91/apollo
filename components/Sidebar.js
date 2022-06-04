@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className="flex bg-black text-white h-20 justify-between items-center sticky top-0">
+    <div className="flex bg-black text-white h-20 justify-between items-center sticky top-0 z-10">
       <div className="px-6">
           <Link href="/">
             <a>
@@ -30,7 +30,7 @@ const Sidebar = () => {
         <button className="fixed z-30 flex items-center cursor-pointer right-10 top-6">
           <svg
             onClick={() => setIsOpen(!isOpen)}
-            fill="#BB8FCE" 
+            fill="white" 
             viewBox="0 0 100 80"
             width="40"
             height="40"
@@ -42,23 +42,23 @@ const Sidebar = () => {
         </button>
       ) : 
       (
-        <button className="text-2xl text-white fixed top-4 right-4 z-10" onClick={() => setIsOpen(!isOpen)}>
+        <button className="text-2xl text-white fixed top-4 right-4 z-20" onClick={() => setIsOpen(!isOpen)}>
           x
         </button>
       )
     }
-      <div className={`top-0 right-0 fixed bg-purple-300/50 w-[35vw] h-full p-10 ${isOpen ? 'translate-x-0':'translate-x-full'} ease-in-out duration-300`}>
-        <Link href="/">
-          <a><h2 className="text-2xl text-white px-6">Home</h2></a>
+      <div className={`top-0 right-0 fixed bg-purple-400/60 w-full h-full p-10 ${isOpen ? 'translate-x-0':'translate-x-full'} ease-in-out duration-300`}>
+        <Link className="justify-center" href="/">
+          <a><h2 className="text-3xl text-white px-6">Home</h2></a>
         </Link>
         <Link href="/">
-          <a><h2 className="text-2xl text-white px-6">Services</h2></a>
+          <a><h2 className="text-3xl text-white px-6">Services</h2></a>
         </Link>
         <Link href="/about">
-          <a><h2 className="text-2xl text-white px-6">About</h2></a>
+          <a><h2 className="text-3xl text-white px-6">About</h2></a>
         </Link>
         <Link href="/contact">
-          <a><h2 className="text-2xl text-white px-6">Contact</h2></a>
+          <a><h2 className="text-3xl text-white px-6">Contact</h2></a>
         </Link>
       </div>
     </div>
