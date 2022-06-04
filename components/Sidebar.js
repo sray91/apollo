@@ -27,7 +27,7 @@ const Sidebar = () => {
       </div>
     {!isOpen ? 
       ( 
-        <button className="fixed z-30 flex items-center cursor-pointer right-10 top-6">
+        <button className="fixed z-30 flex items-center cursor-pointer right-10 top-5">
           <svg
             onClick={() => setIsOpen(!isOpen)}
             fill="white" 
@@ -52,7 +52,7 @@ const Sidebar = () => {
           <Link href="/">
             <a><h2>Home</h2></a>
           </Link>
-          <Link href="/">
+          <Link href="#services-section">
           <a><h2>Services</h2></a>
           </Link>
           <Link href="/about">
