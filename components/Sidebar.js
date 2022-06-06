@@ -50,16 +50,16 @@ const Sidebar = () => {
       <div className={`top-0 right-0 fixed bg-purple-400/90 w-full h-full p-10 flex justify-center ${isOpen ? 'translate-x-0':'translate-x-full'} ease-in-out duration-300`}>
         <div className="text-5xl text-white p-6 text-center font-bold">
           <Link href="/">
-            <a><h2 className="h-[15vh]">Home</h2></a>
+            <a onClick={() => setIsOpen(!isOpen)}><h2 className="h-[15vh]">Home</h2></a>
           </Link>
-          <Link href="#services-section">
-          <a><h2 className="h-[15vh]">Services</h2></a>
+          <Link href="/#services-section">
+          <a onClick={() => setIsOpen(!isOpen)}><h2 className="h-[15vh]">Services</h2></a>
           </Link>
           <Link href="/about">
-          <a><h2 className="h-[15vh]">About</h2></a>
+          <a onClick={() => setIsOpen(!isOpen)}><h2 className="h-[15vh]">About</h2></a>
           </Link>
           <Link href="/contact">
-          <a><h2 className="h-[15vh]">Contact</h2></a>
+          <a onClick={() => setIsOpen(!isOpen)}><h2 className="h-[15vh]">Contact</h2></a>
           </Link>
         </div>
       </div>
