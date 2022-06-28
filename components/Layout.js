@@ -8,6 +8,7 @@ export default function Layout({children}) {
     <div>
       <Sidebar />
       {children}
+      <div></div>
       <Footer />
     </div>
   )
