@@ -23,18 +23,20 @@ const Navbar = () => {
                 </a>
             </Link>
         </div>
+
         <div className="font-bold">
             <Link href="/">
-                <a className="px-6">Home</a>
+                <a className="px-6">HOME</a>
             </Link>
             <Link href="/">
-                <a className="px-6">Services</a>
+                <a className="px-6">SERVICES</a>
             </Link>
+            
             <Link href="/about">
-                <a className="px-6">About</a>
+                <a className="px-6">ABOUT</a>
             </Link>
             <Link href="/contact">
-                <a className="px-6">Contact</a>
+                <a className="px-6">CONTACT</a>
             </Link>
         </div>
     </div>
