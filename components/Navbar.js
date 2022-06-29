@@ -28,6 +28,7 @@ const Navbar = () => {
             <Link href="/">
                 <a className="px-6">HOME</a>
             </Link>
+            
             <Link href="/">
                 <a className="px-6">SERVICES</a>
             </Link>

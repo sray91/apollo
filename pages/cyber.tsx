@@ -10,14 +10,14 @@ const cyber = () => {
         <title>CYBERSECURITY Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.heading}><br></br>CYBERSECURITY
+      <div className={styles.cyberHeader}>CYBERSECURITY
       </div>
       
-      <div className={styles.Body}>Our focus is security-first when it comes to managing IT. From firewalls to filtering to 
+      <div className={styles.Body}><br></br><br></br>Our focus is security-first when it comes to managing IT. From firewalls to filtering to 
                 phishing attacks, we are experts in protecting the entire IT environment for our clients. 
                 Our security audits look at every corner of your IT system to help you take a comprehensive 
                 approach to managing and mitigating risks. We also partner with world-leading cybersecurity service 
-                providers to ensure our clients are properly protected at all times.
+                providers to ensure our clients are properly protected at all times.<br></br><br></br>
         </div>
 
       <br></br>

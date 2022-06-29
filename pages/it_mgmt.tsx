@@ -10,13 +10,13 @@ const it_mgmt = () => {
         <title>IT MANAGEMENT Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.heading}>MANAGED<br></br>IT SERVICES
+      <div className={styles.manageHeader}>MANAGED IT<br></br>SOLUTIONS
       </div>
 
-      <div className={styles.Body}>We have taken managing IT to a whole new level for small to mid-sized companies that want more
+      <div className={styles.Body}><br></br>We have taken managing IT to a whole new level for small to mid-sized companies that want more
             than an internal IT department can provide. With remote and on-site support included in our Managed IT service offering, we ensure that
             your team always has access to the help they need. Our procurement approach is foundational to the IT systems we support.  We help you select the 
-            right products, tools, and software for each and every job.
+            right products, tools, and software for each and every job.<br></br>
         </div>
 
       <br></br>

@@ -14,7 +14,7 @@ const contact = () => {
         <title>CONTACT US Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.heading}><br></br>CONTACT US  
+      <div className={styles.contactHeader}>CONTACT US  
       </div>
       {/* <div className="flex justify-center items-center py-10">
         <p className="px-6">843-608-8485</p>
@@ -23,6 +23,7 @@ const contact = () => {
         <p className="px-6">apollosystemsbiz@gmail.com</p>
       </div> */}
     </div>
+    <br></br><br></br>
     <div className="h-screen px-32">
       {isSent ? 
         ( <div className="flex flex-column justify-center">
