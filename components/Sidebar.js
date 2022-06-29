@@ -23,9 +23,9 @@ const Sidebar = () => {
                 height={50}
                 />
               <Image 
-                src="/eclipseNew.jpg"
+                src="/sunNew.jpg"
                 alt="sun"
-                width={70}
+                width={50}
                 height={50}
               />
             </a>
