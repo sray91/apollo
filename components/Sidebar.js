@@ -21,12 +21,6 @@ const Sidebar = () => {
                 alt="Apollo Logo w/ Words"
                 width={100}
                 height={50}
-                />
-              <Image 
-                src="/eclipseNew.jpg"
-                alt="sun"
-                width={70}
-                height={50}
               />
             </a>
           </Link>

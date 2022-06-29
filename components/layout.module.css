@@ -1,25 +1,3 @@
-/*Services Header*/
-.servicesHeader {
-    /*background*/
-    background-image: URL("images/worldNew.jpg");
-    background-position: 50%;
-    /*text*/
-    color:white;
-    font-weight: bold;
-    -webkit-text-stroke: 0px;
-    -webkit-text-stroke-color: black;
-    /*page*/
-    padding: 70px;
-    width: 100%;
-    height: fit-content;
-    border: none;
-    text-align: center;
-    vertical-align: middle;
-    outline: none;
-    font-size: 60px;
-  }  
-
-
 .collapsible {
     background-color: rgb(255, 255, 255);
     color: rgb(135, 70, 176);
@@ -70,4 +48,3 @@
     outline: none;
     font-size: 60px;
   }
-

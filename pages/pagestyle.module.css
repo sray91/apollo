@@ -4,7 +4,7 @@
     color: rgb(135, 70, 176);
     font-weight: bold;
     cursor: pointer;
-    padding: 5px;
+    padding: 30px;
     width: 100%;
     border: none;
     text-align: center;
@@ -15,180 +15,29 @@
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
     background-color: rgb(0, 0, 0);
-    background-position: 50%;
   }
 
-  /*individual page formating*/
-     /*Managed IT*/
-     .manageHeader {
-      /*background*/
-      background-image: URL("images/supportNew.jpg");
-      background-position: 50%;
-      /*text*/
-      color:white;
-      font-weight: bold;
-      -webkit-text-stroke: 0px;
-      -webkit-text-stroke-color: black;
-      /*page*/
-      padding: 60px;
-      width: 100%;
-      height: fit-content;
-      border: none;
-      text-align: center;
-      vertical-align: middle;
-      outline: none;
-      font-size: 60px;
-    }  
-
-  /*cybersecurity*/
-  .cyberHeader {
-    /*background*/
-    background-image: URL("images/codingNew.jpg");
-    background-position: 50%;
-    /*text*/
-    color:white;
-    font-weight: bold;
-    -webkit-text-stroke: 0px;
-    -webkit-text-stroke-color: black;
-    /*page*/
-    padding: 90px;
-    width: 100%;
-    height: fit-content;
-    border: none;
-    text-align: center;
-    vertical-align: middle;
-    outline: none;
-    font-size: 60px;
-  }
-
-   /*project mgmt*/
-  .projectHeader {
-    /*background*/
-    background-image: URL("images/projectNew.jpg");
-    background-position: 50%;
-    /*text*/
-    color:white;
-    font-weight: bold;
-    -webkit-text-stroke: 0px;
-    -webkit-text-stroke-color: black;
-    /*page*/
-    padding: 60px;
-    width: 100%;
-    height: fit-content;
-    border: none;
-    text-align: center;
-    vertical-align: middle;
-    outline: none;
-    font-size: 60px;
-  }
-
-   /*strategy*/
-   .strategyHeader {
-    /*background*/
-    background-image: URL("images/StratNew.jpg");
-    background-position: 50%;
-    /*text*/
-    color:white;
-    font-weight: bold;
-    -webkit-text-stroke: 0px;
-    -webkit-text-stroke-color: black;
-    /*page*/
-    padding: 60px;
-    width: 100%;
-    height: fit-content;
-    border: none;
-    text-align: center;
-    vertical-align: middle;
-    outline: none;
-    font-size: 60px;
-  }  
-
-   /*transformation*/
-   .tfHeader {
-        /*background*/
-        background-image: URL("images/advanceNew.jpg");
-        background-position: 50%;
-        /*text*/
-        color:white;
-        font-weight: bold;
-        -webkit-text-stroke: 0px;
-        -webkit-text-stroke-color: black;
-        /*page*/
-        padding: 60px;
-        width: 100%;
-        height: fit-content;
-        border: none;
-        text-align: center;
-        vertical-align: middle;
-        outline: none;
-        font-size: 60px;
-  }  
-
- /*contact*/
-    .aboutHeader {
-      /*background*/
-      background-image: URL("images/charlestonNew.jpg");
-      background-position: 50%;
-      /*text*/
-      color:white;
-      font-weight: bold;
-      -webkit-text-stroke: 0px;
-      -webkit-text-stroke-color: black;
-      /*page*/
-      padding: 60px;
-      width: 100%;
-      height: fit-content;
-      border: none;
-      text-align: center;
-      vertical-align: middle;
-      outline: none;
-      font-size: 60px;
-    }  
-
-     /*contact*/
-     .contactHeader {
-          /*background*/
-          background-image: URL("images/laptopNew.jpg");
-          background-position: 50%;
-          /*text*/
-          color:white;
-          font-weight: bold;
-          -webkit-text-stroke: 0px;
-          -webkit-text-stroke-color: black;
-          /*page*/
-          padding: 60px;
-          width: 100%;
-          height: fit-content;
-          border: none;
-          text-align: center;
-          vertical-align: middle;
-          outline: none;
-          font-size: 60px;
-        }  
-
-    
-.heading { 
+.heading {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-weight: bold;
-    padding: 0px;
-    width: auto;
+    padding: 30px;
+    width: 100%;
     border: none;
     text-align: center;
     outline: none;
     font-size: 60px;
   }
 
- .Body { 
+ .Body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    padding: 0px;
-    padding-left: 100px;
-    padding-right: 100px;
-    width: auto;
+    padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100%;
     border: none;
     text-align: Left;
-    overflow-wrap: normal;
     outline: none;
     font-size: 15px;
   }
@@ -197,13 +46,12 @@
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 10px;
-    position: sticky;
-    overflow-wrap: normal;
-    padding-left: 100px;
-    padding-right: 100px;
-    width: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100%;
     border: none;
     text-align: left;
+    outline: none;
     font-size: 15px;
   }
 
@@ -211,10 +59,9 @@
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 10px;
-    overflow-wrap: normal;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
     border: none;
     text-align: center;
     outline: none;
