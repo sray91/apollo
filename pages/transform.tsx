@@ -7,13 +7,13 @@ const transform = () => {
   return (
     <div className="h-screen">
       <Head>
-        <title>IT TRANSFORMATION Page</title>
+        <title>TECHNOLOGY TRANSFORMATION Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.heading}>IT<br></br>TRANSFORMATION
+      <div className={styles.tfHeader}>TECHNOLOGY<br></br>TRANSFORMATION
       </div>
 
-      <div className={styles.Body}>We help small businesses modernize and improve their IT systems to better fit their needs. 
+      <div className={styles.Body}><br></br>We help small businesses modernize and improve their IT systems to better fit their needs. 
             Our audits offer a broad-spectrum analysis of systems, software, and services in place.
             This analysis helps to identify improvements or solutions that not only make your business run better, but can save you money. 
         </div>

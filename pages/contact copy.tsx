@@ -10,7 +10,7 @@ const contact = () => {
         <title>CONTACT US Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.contactHeader}>CONTACT US  
+      <div className={styles.heading}><br></br>CONTACT US  
       </div>
       {/* <div className="flex justify-center items-center py-10">
         <p className="px-6">843-608-8485</p>
@@ -19,7 +19,6 @@ const contact = () => {
         <p className="px-6">apollosystemsbiz@gmail.com</p>
       </div> */}
     </div>
-    <br></br><br></br>
     <div className="h-screen px-32">
     <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-white dark:bg-purple-500">
       <h1 className="text-2xl font-bold dark:text-gray-50">SEND A MESSAGE</h1>
