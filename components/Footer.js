@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import styles from './layout.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, 
          faLinkedin, 

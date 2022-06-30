@@ -124,7 +124,7 @@
         font-size: 60px;
   }  
 
- /*contact*/
+ /*about*/
     .aboutHeader {
       /*background*/
       background-image: URL("images/charlestonNew.jpg");
@@ -207,16 +207,78 @@
     font-size: 15px;
   }
 
-  .subhead1 {
+  .Body3 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 10px;
+    position: sticky;
     overflow-wrap: normal;
-    padding-left: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: auto;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .Body4 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-weight: bold;
+    position: sticky;
+    overflow-wrap: normal;
+    padding-left: 125px;
+    padding-right: 150px;
+    width: auto;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  
+  .Body5 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    overflow-wrap: normal;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 5px;
+    width: auto;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .Body6 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    overflow-wrap: normal;
+    padding-left: 175px;
+    padding-right: 150px;
+    padding-bottom: 5px;
+    width: auto;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .subhead1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    overflow-wrap: normal;
+    padding-top: 10px;
     padding-right: 0px;
+    padding-bottom: 20px;
     width: auto;
     border: none;
     text-align: center;
     outline: none;
     font-size: 20px;
   }
+
+  /*headshots*/
+
