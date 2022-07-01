@@ -21,7 +21,7 @@ const Services = () => {
         <button className={styles.collapsible}><FontAwesomeIcon icon={faComputer} size="1x"/>&nbsp;&nbsp;&nbsp;MANAGED IT SOLUTIONS</button>
         </Link>
         <br></br>
-        <Link href="/project">
+        <Link href="/projectMgmt">
         <button className={styles.collapsible}><FontAwesomeIcon icon={faProjectDiagram} size="1x"/>&nbsp;&nbsp;&nbsp;PROJECT MANAGEMENT</button>
         </Link>
         <br></br>
