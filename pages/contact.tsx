@@ -24,7 +24,7 @@ const contact = () => {
       </div> */}
     </div>
     <br></br><br></br>
-    <div className="h-screen px-32">
+    <div className="h-auto px-32 pb-48">
       {isSent ? 
         ( <div className="flex flex-col flex-wrap items-center">
             <div className="py-4">
