@@ -26,9 +26,12 @@ const contact = () => {
     <br></br><br></br>
     <div className="h-screen px-32">
       {isSent ? 
-        ( <div className="flex flex-column justify-center">
-            <h2>Thank you! We will be in touch soon.</h2>
-            <FontAwesomeIcon icon={faCheckSquare} size="3x"/>
+        ( <div className="flex flex-col flex-wrap items-center">
+            <div className="py-4">
+              <FontAwesomeIcon icon={faCheckSquare} size="3x"/>
+            </div>
+            <p className="text-3xl py-4 font-bold text-purple-500">Thank you!</p>
+            <p className="py-4 font-light">We will be in touch soon</p>
           </div>
         ) : 
         (
