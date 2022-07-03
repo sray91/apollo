@@ -23,22 +23,6 @@ const about = () => {
       <br></br>
       <div className={styles.cards}>
 
-<<<<<<< HEAD
-        <h3 className={styles.leftCard}>
-            <ol>
-              <li>Engineering</li>
-              <li>Project management</li>
-              <li>Automation</li>
-              <li>Cybersecurity</li>
-              <li>Software Development</li></ol></h3>
-        <h3 className={styles.leftCard}>
-            <ol>
-              <li>Software Implementation</li>
-              <li>Software Configuration</li>
-              <li>Web development</li>
-              <li>Hardware Setup and Installation</li>
-              <li>Internal and external IT systems</li></ol></h3>
-=======
       <h3 className={styles.leftCard}>
           <ol>
             <li>Internal and external IT systems</li>
@@ -54,7 +38,6 @@ const about = () => {
             <li>Web development</li>
             <li>Hardware Setup and Installation</li>
             </ol></h3>
->>>>>>> 1dd818d10d2da9d1e05c38f1380fac1dbf86e70e
 
       </div>
       <br></br>
@@ -75,32 +58,6 @@ const about = () => {
         <h1 className={styles.smallLine}></h1>
       </div>
 
-<<<<<<< HEAD
-      <div className={styles.imgCards}>
-        <h2 className={styles.smallCard}>
-          <img src="./SwayRay.jpg" alt="Sway" width="200px" height="200px"></img>
-          <a>Swanagan Ray</a>
-        </h2>
-        <h2 className={styles.smallCard}>
-          <img src="./ryGuyNew.jpg" alt="Ryan" width="200px" height="200px"></img>
-          <a>Ryan Wagner</a>
-        </h2>
-        <h2 className={styles.smallCard}>
-          <img src="./hanks.jpg" alt="Ryan" width="200px" height="200px"></img>
-          <a>Cory Hank</a>
-        </h2>
-      </div> 
-      <br></br>
-      <div className={styles.cards}>
-        <h2 className={styles.smallCard}></h2>
-        <h2 className={styles.smallCard}>
-          <Link href="/contact">
-            <button className={styles.collapsible}>FIND OUT MORE</button>
-          </Link> 
-        </h2>
-        <h2 className={styles.smallCard}></h2>
-      </div>
-=======
     <div className={styles.imgCards}>
       <h2 className={styles.smallCard}>
         <img src="./swanaganPFP.png" alt="Sway" width="200px" height="200px"></img>
@@ -125,7 +82,6 @@ const about = () => {
       </h2>
       <h2 className={styles.smallCard}></h2>
     </div>
->>>>>>> 1dd818d10d2da9d1e05c38f1380fac1dbf86e70e
   </div>
   )
 }
