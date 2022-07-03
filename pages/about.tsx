@@ -25,18 +25,19 @@ const about = () => {
 
       <h3 className={styles.leftCard}>
           <ol>
-            <li>Engineering</li>
+            <li>Internal and external IT systems</li>
             <li>Project management</li>
-            <li>Automation</li>
             <li>Cybersecurity</li>
-            <li>Software Development</li></ol></h3>
+            <li>Software Implementation</li>
+            <li>Software Configuration</li></ol></h3>
       <h3 className={styles.leftCard}>
           <ol>
-            <li>Software Implementation</li>
-            <li>Software Configuration</li>
+            <li>Software Development</li>
+            <li>Engineering</li>
+            <li>Automation</li>
             <li>Web development</li>
             <li>Hardware Setup and Installation</li>
-            <li>Internal and external IT systems</li></ol></h3>
+            </ol></h3>
 
     </div>
     <br></br>
@@ -59,7 +60,7 @@ const about = () => {
 
     <div className={styles.imgCards}>
       <h2 className={styles.smallCard}>
-        <img src="./SwayRay.jpg" alt="Sway" width="200px" height="200px"></img>
+        <img src="./swanaganPFP.png" alt="Sway" width="200px" height="200px"></img>
         <a>Swanagan Ray</a>
       </h2>
       <h2 className={styles.smallCard}>
@@ -67,7 +68,7 @@ const about = () => {
         <a>Ryan Wagner</a>
       </h2>
       <h2 className={styles.smallCard}>
-        <img src="./hanks.jpg" alt="Ryan" width="200px" height="200px"></img>
+        <img src="./cory.jpg" alt="Cory" width="200px" height="200px"></img>
         <a>Cory Hank</a>
       </h2>
     </div> 

@@ -50,15 +50,15 @@ const projectMgmt = () => {
       <h3 className={styles.smallLine}></h3>
 
 
-        <h3 className={styles.subHeadCard}>Efficient:</h3>
+        <h3 className={styles.subHeadCard1}>Efficient:</h3>
             <p className={styles.largeCard}>Utilizing an experienced project manager will help you stay on budget and on schedule. Without the knowledge 
             and experience required for IT project management, you could be looking at cost over runs, unexpected delays and security holes as your internal 
             resources learn on the job.</p> 
-        <h3 className={styles.subHeadCard}>Effective:</h3>
+        <h3 className={styles.subHeadCard1}>Effective:</h3>
             <p className={styles.largeCard}>Keep your business running smoothly and free of added stress. We handle the planning and co-ordination 
             so your key staff can stay focused on their daily responsibilities. Having an outside perspective also provides the advantage of 
             objectivity, because office politics, relationships, and personal attachments to a project can cause delays and slow your progress.</p>
-        <h3 className={styles.subHeadCard}>Secure:</h3>
+        <h3 className={styles.subHeadCard1}>Secure:</h3>
             <p className={styles.largeCard}>Whether adding functionality, improving collaboration or completely overhauling your network, success will 
             require that any new system is secured. Each step of your project will include security oversight to protect your business and clients 
             as your new technology is implemented.</p>
