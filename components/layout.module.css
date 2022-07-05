@@ -35,7 +35,8 @@
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: blueviolet;
+    color: white;
   }
   
   /* Style the collapsible content. Note: hidden by default */
@@ -95,4 +96,6 @@
     justify-content: center;
 
   }
+
+  
 
