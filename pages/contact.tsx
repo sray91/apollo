@@ -28,7 +28,9 @@ const contact = () => {
         <p className="px-6">apollosystemsbiz@gmail.com</p>
       </div> */}
     </div>
-    <div className="h-screen px-32">
+
+    <br></br><br></br>
+    <div className="h-auto px-32 pb-48">
       {isSent ? 
         ( <div className="flex flex-col flex-wrap items-center">
             <div className="py-4">

@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const about = () => {
   return (
-    <div className="h-screen">
+    <div className="h-auto">
       <Head>
         <title>ABOUT US Page</title>
         <link rel="icon" href="/favicon.ico" />
@@ -45,24 +45,24 @@ const about = () => {
             <li>Hardware Setup and Installation</li>
             </ol></h3>
 
-    </div>
-    <br></br>
-    <div className={styles.singleCards}>
-      <h1 className={styles.smallLine}></h1>
-      <h1 className={styles.subHeadCard}>WHAT MAKES APOLLO DIFFERENT?</h1>
-      <h1 className={styles.smallLine}></h1>
-            <h2 className={styles.largeCard}>We have worked with and for mutliple companies of various 
-            sizes, including both fortune 500 companies and small to medium businesses. In the past, 
-            we have found ourselves in many of the situations our clients face everyday, and come armed 
-            with the learned skills to quickly produce results.<br></br><br></br>We understand businesses and goals are 
-            different depending on the company and industry, and we work to develop partnerships with our 
-            clients that not only ensure their information technology and security needs are met, but 
-            that they are enabled to succeed longterm.</h2>
+      </div>
       <br></br>
-      <h1 className={styles.smallLine}></h1>
-      <h1 className={styles.subHeadCard}>MEET OUR TEAM:</h1>
-      <h1 className={styles.smallLine}></h1>
-    </div>
+      <div className={styles.singleCards}>
+        <h1 className={styles.smallLine}></h1>
+        <h1 className={styles.subHeadCard}>WHAT MAKES APOLLO DIFFERENT?</h1>
+        <h1 className={styles.smallLine}></h1>
+              <h2 className={styles.largeCard}>We have worked with and for mutliple companies of various 
+              sizes, including both fortune 500 companies and small to medium businesses. In the past, 
+              we have found ourselves in many of the situations our clients face everyday, and come armed 
+              with the learned skills to quickly produce results.<br></br><br></br>We understand businesses and goals are 
+              different depending on the company and industry, and we work to develop partnerships with our 
+              clients that not only ensure their information technology and security needs are met, but 
+              that they are enabled to succeed longterm.</h2>
+        <br></br>
+        <h1 className={styles.smallLine}></h1>
+        <h1 className={styles.subHeadCard}>MEET OUR TEAM:</h1>
+        <h1 className={styles.smallLine}></h1>
+      </div>
 
     <div className={styles.imgCards}>
       <h2 className={styles.smallCard}>
