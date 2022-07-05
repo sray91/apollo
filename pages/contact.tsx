@@ -1,7 +1,12 @@
 import React from 'react'
 import Head from 'next/head'
 import styles from './pagestyle.module.css';
+import Link from 'next/link'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+  import { faTwitter, 
+          faLinkedin, 
+          faFacebook, 
+          faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react'
 import { faCheckSquare } from '@fortawesome/free-solid-svg-icons'
 
@@ -23,6 +28,7 @@ const contact = () => {
         <p className="px-6">apollosystemsbiz@gmail.com</p>
       </div> */}
     </div>
+
     <br></br><br></br>
     <div className="h-auto px-32 pb-48">
       {isSent ? 
@@ -56,7 +62,36 @@ const contact = () => {
           </form>
         )
       }
+
     </div>
+
+      <div className={styles.footerCards}>
+        <h2 className={styles.footerCard}>
+        <Link href="https://linkedin.com">
+          <a className="p-6">
+           <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+          </a>
+        </Link>
+
+        <Link href="https://twitter.com">
+          <a className="p-6">
+            <FontAwesomeIcon icon={faTwitter} size="2x"/>
+          </a>
+        </Link>
+
+        <Link href="https://facebook.com">
+        <a className="p-6">
+            <FontAwesomeIcon icon={faFacebook} size="2x"/>
+          </a>
+        </Link>
+
+        <Link href="https://instagram.com">
+          <a className="p-6">
+            <FontAwesomeIcon icon={faInstagram} size="2x"/>
+          </a>
+        </Link></h2>
+      </div>
+      
     </>
   )
 }

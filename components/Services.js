@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from './layout.module.css';
-import { faComputer,
+  import { faComputer,
          faChartLine,
          faProjectDiagram,
          faRoute,
@@ -11,7 +11,7 @@ import { faComputer,
 const Services = () => {
   return (
     <div className="h-screen bg-white" id="services-section">
-        <h1 className={styles.servicesHeader}><br></br>SERVICES</h1>    
+        <h1 className={styles.servicesHeader}><br></br>OUR SERVICES</h1>    
         <br></br>                  
         <Link href="/cyber">
         <button className={styles.collapsible}><FontAwesomeIcon icon={faShieldAlt} size="1x"/>&nbsp;&nbsp;&nbsp;CYBERSECURITY</button>
@@ -32,8 +32,6 @@ const Services = () => {
         <Link href="/transform">
         <button className={styles.collapsible}><FontAwesomeIcon icon={faChartLine} size="1x"/>&nbsp;&nbsp;&nbsp;TECHNOLOGY TRANSFORMATION</button>
         </Link>
-
-
     </div>
     
   )

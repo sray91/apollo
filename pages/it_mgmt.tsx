@@ -4,12 +4,15 @@ import Link from 'next/link'
 import styles from './pagestyle.module.css';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faComputer, faCloudArrowUp,faEnvelope,faBuilding,faLock,faMousePointer,
-         faCalculator,
+  import {faCalculator,
          faGlobe,
          faRoute,
          faCogs, 
          faHeartbeat} from '@fortawesome/free-solid-svg-icons'
+  import { faTwitter, 
+          faLinkedin, 
+          faFacebook, 
+          faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const it_mgmt = () => {
   return (
@@ -22,7 +25,7 @@ const it_mgmt = () => {
     </div>
 
     <div className={styles.singleCards}>
-      <br></br>
+    <h3 className={styles.divideCard}></h3>
       <h2 className={styles.subHeadCard}>FOCUS ON YOUR BUSINESS, LET US WORRY ABOUT YOUR TECHNOLOGY.</h2>
       <h3 className={styles.smallLine}></h3>
             <p className={styles.largeCard}>IT should be a strategic asset that helps your business succeed. However, an IT system that is not 
@@ -42,9 +45,9 @@ const it_mgmt = () => {
       <h3 className={styles.smallLine}></h3>
 
 
-        <h3 className={styles.subHeadCard1}>Increased Security:</h3>
+        <h3 className={styles.subHeadCard1}>Enhanced Security:</h3>
             <p className={styles.largeCard}>We ensure your organizations data and information are kept secure and protected.</p> 
-        <h3 className={styles.subHeadCard1}>Enhanced Productivity:</h3>
+        <h3 className={styles.subHeadCard1}>Increased Productivity:</h3>
             <p className={styles.largeCard}>We provide your staff with the tools, services, and information they need.</p> 
         <h3 className={styles.subHeadCard1}>Better Planning:</h3>
             <p className={styles.largeCard}>You will always have the guidance and analysis you need to make informed decisions about
@@ -78,6 +81,35 @@ const it_mgmt = () => {
       </h2>
       <h2 className={styles.smallCard}></h2>
     </div>
+    <br></br>
+
+    <div className={styles.footerCards}>
+      <h2 className={styles.footerCard}>
+      <Link href="https://linkedin.com">
+        <a className="p-6">
+          <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+        </a>
+      </Link>
+
+      <Link href="https://twitter.com">
+        <a className="p-6">
+          <FontAwesomeIcon icon={faTwitter} size="2x"/>
+        </a>
+      </Link>
+
+      <Link href="https://facebook.com">
+        <a className="p-6">
+          <FontAwesomeIcon icon={faFacebook} size="2x"/>
+        </a>
+      </Link>
+
+      <Link href="https://instagram.com">
+        <a className="p-6">
+          <FontAwesomeIcon icon={faInstagram} size="2x"/>
+        </a>
+      </Link></h2>
+    </div>
+
   </div>
   )
 }

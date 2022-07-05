@@ -9,10 +9,6 @@ export default function Layout({children}) {
     <div>
       <Sidebar />
       {children}
-      {/* <div></div>
-      <Space /> */}
-      {/* <Space /> */}
-      <Footer />
     </div>
   )
 }

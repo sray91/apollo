@@ -2,6 +2,11 @@ import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from './pagestyle.module.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+  import { faTwitter, 
+          faLinkedin, 
+          faFacebook, 
+          faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const about = () => {
   return (
@@ -12,16 +17,17 @@ const about = () => {
       </Head>
       <h1 className={styles.aboutHeader}>ABOUT US</h1>
 
-      <div className={styles.singleCards}>
-        <h1 className={styles.subHeadCard}><br></br>CRITICAL SKILLS BUILT ON REAL-WORLD EXPERIENCE.</h1>
-        <h1 className={styles.smallLine}></h1>
-              <h2 className={styles.largeCard}>Apollo Systems is a Charleston owned and grown business. 
-              Our goal is to focus on meeting the technology needs of Small and Medium businesses within 
-              the Charleston area, to help make them more successful. Our team has over 20 years of 
-              combined experience, and come armed with a variety of skills including:</h2>
-      </div>
-      <br></br>
-      <div className={styles.cards}>
+    <div className={styles.singleCards}>
+      <h3 className={styles.divideCard}></h3>
+      <h1 className={styles.subHeadCard}>CRITICAL SKILLS BUILT ON REAL-WORLD EXPERIENCE.</h1>
+      <h1 className={styles.smallLine}></h1>
+            <h2 className={styles.largeCard}>Apollo Systems is a Charleston owned and grown business. 
+            Our goal is to focus on meeting the technology needs of Small and Medium businesses within 
+            the Charleston area, to help make them more successful. Our team has over 20 years of 
+            combined experience, and come armed with a variety of skills including:</h2>
+    </div>
+    <br></br>
+    <div className={styles.cards}>
 
       <h3 className={styles.leftCard}>
           <ol>
@@ -73,6 +79,7 @@ const about = () => {
       </h2>
     </div> 
     <br></br>
+    
     <div className={styles.cards}>
       <h2 className={styles.smallCard}></h2>
       <h2 className={styles.smallCard}>
@@ -82,6 +89,35 @@ const about = () => {
       </h2>
       <h2 className={styles.smallCard}></h2>
     </div>
+    <br></br>
+
+    <div className={styles.footerCards}>
+      <h2 className={styles.footerCard}>
+      <Link href="https://linkedin.com">
+        <a className="p-6">
+          <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+        </a>
+      </Link>
+
+      <Link href="https://twitter.com">
+        <a className="p-6">
+          <FontAwesomeIcon icon={faTwitter} size="2x"/>
+        </a>
+      </Link>
+
+      <Link href="https://facebook.com">
+        <a className="p-6">
+          <FontAwesomeIcon icon={faFacebook} size="2x"/>
+        </a>
+      </Link>
+
+      <Link href="https://instagram.com">
+        <a className="p-6">
+          <FontAwesomeIcon icon={faInstagram} size="2x"/>
+        </a>
+      </Link></h2>
+    </div>
+
   </div>
   )
 }
