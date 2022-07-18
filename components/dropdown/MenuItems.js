@@ -1,11 +1,12 @@
-import Dropdown from "./Dropdown";
-import styles from "./app.module.css";
+import React from 'react'
 import {
     useState,
     useEffect,
-    useRef
-} from "react";
+    useRef} from "react";
 
+import Dropdown from "./Dropdown";
+
+import styles from "/src/pagestyle.module.css";
 
 const MenuItems = ({
     items,
@@ -64,7 +65,6 @@ const MenuItems = ({
                     </button> 
                     
                     <Dropdown
- 
                     depthLevel = {depthLevel}
                     submenus = {items.submenu}
                     dropdown = {dropdown}>

@@ -1,13 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-import App from "./components/App";
-// styles
-import "./app.module.css";
+import Banner from "./dropdown/Banner";
 
 ReactDOM.render(
  <React.StrictMode>
-  <App />
+  <Banner />
  </React.StrictMode>,
  document.getElementById("root")
 );

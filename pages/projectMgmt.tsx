@@ -1,20 +1,24 @@
 import React from 'react'
+
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from './pagestyle.module.css';
+
+import styles from '/src/pagestyle.module.css';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-  import { faComputer, 
+import { faComputer, 
           faCloudArrowUp,
           faEnvelope,
           faBuilding,
           faLock,
           faMousePointer,
-         } from '@fortawesome/free-solid-svg-icons'
-  import { faTwitter, 
+        } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, 
           faLinkedin, 
           faFacebook, 
           faInstagram } from '@fortawesome/free-brands-svg-icons'
 
+          
 const projectMgmt = () => {
   return (
     <div className="h-screen">

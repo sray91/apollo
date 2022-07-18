@@ -1,8 +1,12 @@
+import React from 'react'
+
 import { menuItems } from "/src/menuItems";
-import { useState } from 'react'
-import styles from "./app.module.css";
 import MenuItems from "./MenuItems";
-import Hamburger from "hamburger-react";
+
+import styles from '/src/pagestyle.module.css';
+
+
+
 
 const Navbar = () => {
     return ( 

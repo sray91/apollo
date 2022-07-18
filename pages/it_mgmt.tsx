@@ -1,27 +1,27 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from './pagestyle.module.css';
-
+import styles from '/src/pagestyle.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-  import {faCalculator,
+import { faCalculator,
          faGlobe,
          faRoute,
          faCogs, 
          faHeartbeat} from '@fortawesome/free-solid-svg-icons'
-  import { faTwitter, 
-          faLinkedin, 
-          faFacebook, 
-          faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, 
+         faLinkedin, 
+         faFacebook, 
+         faInstagram } from '@fortawesome/free-brands-svg-icons'
+
 
 const it_mgmt = () => {
   return (
     <div className="h-screen">
-      {/*<Head>
+      <Head>
         <title>IT MANAGEMENT Page</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>*/}
-      <div className={styles.manageHeader}>MANAGED IT<br></br>SOLUTIONS
+      </Head>
+      <div className={styles.manageHeader}>MANAGED IT<br></br>SUPPORT
   </div>
 
     <div className={styles.singleCards}>

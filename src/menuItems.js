@@ -13,17 +13,14 @@ export const menuItems = [
        link: '/our_approach',
        /*submenu: [
         {
-        title: "Frontend",
+        title: "Submenu Test 1",
         },
         {
-         title: "Backend",
+         title: "Submenu Test 2",
          submenu: [
                 {
-                    title: "NodeJS",
-                },
-                {
-                    title: "PHP",
-                },           
+                    title: "Sub-submenu Test 1",
+                },       
             ],
         },
         ],*/   
@@ -56,7 +53,7 @@ export const menuItems = [
      submenu: [
         {
          title: "CONTACT US",
-         link: '/#contact-section',
+         link: '/contact',
         },
         {
          title: "SUPPORT",
@@ -64,5 +61,4 @@ export const menuItems = [
         }
     ],
     }
-    //...
-   ];
+];
