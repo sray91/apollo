@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import Link from 'next/link'
 import styles from './layout.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -34,4 +34,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer*/

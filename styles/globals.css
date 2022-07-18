@@ -7,8 +7,78 @@ ol {
     list-style-position: outside;
   }
 
-ul {
-    list-style-position: outside;
+#body {
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
   }
+
+#label {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    cursor: pointer;
+  }
+
+#label::before {
+  content:'';
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  position: absolute;
+  display: block;
+  top: -200%;
+  left:0%;
+}
+
+#label::after {
+  content:'';
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  position: absolute;
+  display: block;
+  bottom: -200%;
+  left: 0%;
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  left: auto;
+  box-shadow: none;
+  font-size: 0.875 rem;
+  z-index: 9999;
+  min-width: 10 rem;
+  padding: 0.5 rem 0;
+  list-style: none;
+  /*background-color: #fff;*/
+  border-radius: 0.5 rem;
+  display: none;
+}
+
+.dropdown.show {
+  display: block;
+}
+
+.dropdownSubmenu {
+  position:relative;
+  padding-bottom: 10px;
+  right: 3%;
+  top: 105%;
+  /*border-radius: 10px;
+  border: solid white;
+  border-width: 2px 2px;
+  outline: 2x solid #fff;*/
+  width:300px;
+  font-size: 14px;
+  color: black;
+  /*background-color: rgb(192 132 252);*/
+}
+
+
 
   /* please start using tailwinds */

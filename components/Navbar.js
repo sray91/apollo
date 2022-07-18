@@ -1,47 +1,26 @@
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
+import { menuItems } from "/src/menuItems";
+import { useState } from 'react'
+import styles from "./app.module.css";
+import MenuItems from "./MenuItems";
+import Hamburger from "hamburger-react";
 
 const Navbar = () => {
-  return (
-    <div className="flex bg-black text-white h-20 justify-between items-center sticky top-0">
-        <div className="px-6">
-            <Link href="/">
-                <a>
-                    <Image
-                        src="/apolloLogo.svg"
-                        alt="Apollo Systems logo"
-                        width={50}
-                        height={50}
-                    />
-                    <Image 
-                        src="/apolloLogoWords.svg"
-                        alt="Apollo Logo w/ Words"
-                        width={100}
-                        height={50}
-                    />
-                </a>
-            </Link>
-        </div>
+    return ( 
+        <nav>
+        <ul className={styles.menus}> 
+            {
+                menuItems.map((menu, index) => {
+                    const depthLevel = 0;
+                    return <MenuItems 
+                    items = {menu}
+                    key = {index}
+                    depthLevel = {depthLevel}
+                    />;
+                })
+            } 
+        </ul> 
+        </nav>
+    );
+};
 
-        <div className="font-bold">
-            <Link href="/">
-                <a className="px-6">HOME</a>
-            </Link>
-            
-            <Link href="/">
-                <a className="px-6">SERVICES</a>
-            </Link>
-            
-            <Link href="/about">
-                <a className="px-6">ABOUT</a>
-            </Link>
-            <Link href="/contact">
-                <a className="px-6">CONTACT</a>
-            </Link>
-        </div>
-    </div>
-  )
-}
-
-export default Navbar
+export default Navbar;

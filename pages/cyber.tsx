@@ -40,7 +40,7 @@ const cyber = () => {
     </div>
     
     <div className={styles.singleCards}>
-      <br></br>
+      <h3 className={styles.divideCard}></h3>
       <h3 className={styles.smallLine}></h3>
       <h2 className={styles.subHeadCard}>SHIELD YOUR BUSINESS FROM MODERN SECURITY THREATS</h2>
       <h3 className={styles.smallLine}></h3>
@@ -51,7 +51,7 @@ const cyber = () => {
     </div>
 
     <div className={styles.singleCards}>
-      <br></br>
+      <h3 className={styles.divideCard}></h3>
       <h3 className={styles.smallLine}></h3>
       <h2 className={styles.subHeadCard}>BUSINESS CONTINUITY IS CRITICAL</h2>
       <h3 className={styles.smallLine}></h3>
@@ -64,7 +64,7 @@ const cyber = () => {
     <div className={styles.cards}>
       <h2 className={styles.smallCard}></h2>
       <h2 className={styles.smallCard}>
-        <Link href="/contact">
+        <Link href="/#contact-section">
           <button className={styles.collapsible}>FIND OUT MORE</button>
         </Link> 
       </h2>
@@ -98,7 +98,7 @@ const cyber = () => {
         </a>
       </Link></h2>
     </div>
-    
+
   </div>
   )
 }

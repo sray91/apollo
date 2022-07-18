@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Hero from '../components/Hero'
 import Services from '../components/Services'
+import Contact from '../components/Contact'
+import Space from '../components/Space'
 import Link from 'next/link'
 import styles from './pagestyle.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,7 +21,10 @@ const Home: NextPage = () => {
       </Head>
       <Hero />
       <Services />
-      
+      <Contact />
+      {/*<Space />
+
+
       <div className={styles.footerCards}>
         <h2 className={styles.footerCard}>
         <Link href="https://linkedin.com">
@@ -45,7 +50,7 @@ const Home: NextPage = () => {
             <FontAwesomeIcon icon={faInstagram} size="2x"/>
           </a>
         </Link></h2>
-      </div>
+      </div>*/}
     </>
   )
 }
