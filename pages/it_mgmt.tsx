@@ -17,12 +17,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const it_mgmt = () => {
   return (
     <div className="h-screen">
-      <Head>
+      {/*<Head>
         <title>IT MANAGEMENT Page</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Head>*/}
       <div className={styles.manageHeader}>MANAGED IT<br></br>SOLUTIONS
-    </div>
+  </div>
 
     <div className={styles.singleCards}>
     <h3 className={styles.divideCard}></h3>
@@ -75,7 +75,7 @@ const it_mgmt = () => {
     <div className={styles.cards}>
       <h2 className={styles.smallCard}></h2>
       <h2 className={styles.smallCard}>
-        <Link href="/contact">
+        <Link href="/#contact-section">
           <button className={styles.collapsible}>FIND OUT MORE</button>
         </Link> 
       </h2>

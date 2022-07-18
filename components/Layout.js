@@ -1,14 +1,14 @@
-import Navbar from "./Navbar"
-import Footer from "./Footer"
-import Sidebar from "./Sidebar"
-import Space from "./Space"
+
+import App from "./App"
 import React, { useState, useEffect } from "react";
 
 export default function Layout({children}) {
   return (
     <div>
-      <Sidebar />
+      {/*<Sidebar />*/}
+      <App />
       {children}
+
     </div>
   )
 }

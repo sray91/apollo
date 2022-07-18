@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from './layout.module.css';
 
 const Hero = () => {
   return (
@@ -8,8 +7,8 @@ const Hero = () => {
         <Image
             src="/apolloHero.svg"
             alt="Hero image of Apollo Systems logo"
-            width={500}
-            height={500}
+            width={600}
+            height={600}
         />
     </div>
   )

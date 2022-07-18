@@ -26,7 +26,7 @@ const projectMgmt = () => {
 
     <div className={styles.singleCards}>
       <h3 className={styles.divideCard}></h3>
-      <h2 className={styles.subHeadCard}>Professionalism and Experience for your important IT projects.</h2>
+      <h2 className={styles.subHeadCard}>PROFESSIONALISM AND EXPERIENCE TO MEET PROJECT NEEDS</h2>
       <h3 className={styles.smallLine}></h3>
             <p className={styles.largeCard}>Apollo offers dedicated program and project managers, trained in Agile, Scrum and Six Sigma methodologies. 
             Our team delivers top notch service for your projects regardless of size, scope, or complexity. We have the experience and tools to manage 
@@ -34,27 +34,28 @@ const projectMgmt = () => {
             project goes on-line, on time, and within budget. While no two projects are alike, we leverage our considerable experience to provide solutions 
             that ensure smooth and successful projects.</p>
     </div>
-    <br></br>
+    
     <div className={styles.singleCards}>
+      <h3 className={styles.divideCard}></h3>
       <h3 className={styles.smallLine}></h3>
-      <h2 className={styles.subHeadCard}>What types of Projects does Apollo manage?</h2>
+      <h2 className={styles.subHeadCard}>WHERE APOLLO PROJECT MANAGERS CAN HELP</h2>
       <h3 className={styles.smallLine}></h3>
+      <h3 className={styles.divideCard}></h3>
     </div>
     <div className={styles.multiCards}>
-      <h4 className={styles.smallActCard}><FontAwesomeIcon icon={faComputer} size="1x"/><br></br>Infrastructure Upgrade and Design</h4>
-      <h4 className={styles.smallActCard}><FontAwesomeIcon icon={faCloudArrowUp} size="1x"/><br></br>Cloud Migration and Support</h4>
+      <h4 className={styles.smallActCard}><FontAwesomeIcon icon={faComputer} size="1x"/><br></br>Infrastructure Upgrade & Design</h4>
+      <h4 className={styles.smallActCard}><FontAwesomeIcon icon={faCloudArrowUp} size="1x"/><br></br>Cloud Migration & Support</h4>
       <h4 className={styles.smallActCard}><FontAwesomeIcon icon={faEnvelope} size="1x"/><br></br>E-mail Migration</h4>
-      <h4 className={styles.smallActCard}><FontAwesomeIcon icon={faBuilding} size="1x"/><br></br>Office/ Location Setup</h4>
-      <h4 className={styles.smallActCard}><FontAwesomeIcon icon={faLock} size="1x"/><br></br>Security and Network Assessments</h4>
+      <h4 className={styles.smallActCard}><FontAwesomeIcon icon={faBuilding} size="1x"/><br></br>Office / Location Setup</h4>
+      <h4 className={styles.smallActCard}><FontAwesomeIcon icon={faLock} size="1x"/><br></br>Security & Network Assessments</h4>
       <h4 className={styles.smallActCard}><FontAwesomeIcon icon={faMousePointer} size="1x"/><br></br>Web Development</h4>
     </div>
-    <br></br>
+
     <div className={styles.singleCards}>
+      <h3 className={styles.divideCard}></h3>
       <h3 className={styles.smallLine}></h3>
-      <h2 className={styles.subHeadCard}>Benefits of Outsourced IT Project Management</h2>
+      <h2 className={styles.subHeadCard}>BENEFITS TO OUTSOURCING IT PROJECTS</h2>
       <h3 className={styles.smallLine}></h3>
-
-
         <h3 className={styles.subHeadCard1}>Efficient:</h3>
             <p className={styles.largeCard}>Utilizing an experienced project manager will help you stay on budget and on schedule. Without the knowledge 
             and experience required for IT project management, you could be looking at cost over runs, unexpected delays and security holes as your internal 
@@ -67,14 +68,30 @@ const projectMgmt = () => {
             <p className={styles.largeCard}>Whether adding functionality, improving collaboration or completely overhauling your network, success will 
             require that any new system is secured. Each step of your project will include security oversight to protect your business and clients 
             as your new technology is implemented.</p>
+    </div>
 
+    <div className={styles.singleCards}>
+      <h3 className={styles.divideCard}></h3>
+      <h3 className={styles.smallLine}></h3>
+      <h2 className={styles.subHeadCard}>THE APOLLO PROJECT MANAGEMENT PROCESS</h2>
+      <h3 className={styles.smallLine}></h3>
+        <h3 className={styles.subHeadCard1}>1. Initiation</h3>
+            <p className={styles.largeCard}>Work with the client to identify project scope and key deliverables. Clearly define costs and controls. Acquire approval from the client.</p> 
+        <h3 className={styles.subHeadCard1}>2. Planning</h3>
+            <p className={styles.largeCard}>Setup project and assemble project team, develop milestones and schedule. Perform discovery work.</p>
+        <h3 className={styles.subHeadCard1}>3. Execution</h3>
+            <p className={styles.largeCard}>Perform project work outlined during planning. Deploy project deliverables.</p>
+        <h3 className={styles.subHeadCard1}>4. Monitoring</h3>
+            <p className={styles.largeCard}>Provide routine status reports to client, as well as budget reviews.</p>
+        <h3 className={styles.subHeadCard1}>5. Closure</h3>
+            <p className={styles.largeCard}>Meet with client to review project deliverables and provide hand-off, as needed.</p>
     </div>
     <br></br>
     
     <div className={styles.cards}>
       <h2 className={styles.smallCard}></h2>
       <h2 className={styles.smallCard}>
-        <Link href="/contact">
+        <Link href="/#contact-section">
           <button className={styles.collapsible}>FIND OUT MORE</button>
         </Link> 
       </h2>

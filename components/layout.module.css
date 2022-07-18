@@ -1,7 +1,28 @@
 /*Services Header*/
 .servicesHeader {
+  /*background*/
+  background-image: URL("images/worldNew.jpg");
+  background-position: 50%;
+  /*text*/
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke: 0px;
+  -webkit-text-stroke-color: black;
+  /*page*/
+  padding: 70px;
+  width: 100%;
+  height: fit-content;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  font-size: 60px;
+}  
+
+  /*contact*/
+  .contactUsHeader {
     /*background*/
-    background-image: URL("images/worldNew.jpg");
+    background-image: URL("images/laptopNew.jpg");
     background-position: 50%;
     /*text*/
     color:white;
@@ -9,7 +30,7 @@
     -webkit-text-stroke: 0px;
     -webkit-text-stroke-color: black;
     /*page*/
-    padding: 70px;
+    padding: 40px;
     width: 100%;
     height: fit-content;
     border: none;
@@ -17,85 +38,87 @@
     vertical-align: middle;
     outline: none;
     font-size: 60px;
-  }  
-
+  } 
 
 .collapsible {
-    background-color: rgb(255, 255, 255);
-    color: rgb(135, 70, 176);
-    font-weight: bold;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: middle;
-    outline: none;
-    font-size: 20px;
-  }
+  background-color: rgb(255, 255, 255);
+  color: rgb(135, 70, 176);
+  font-weight: bold;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: middle;
+  outline: none;
+  font-size: 20px;
+}
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-    background-color: blueviolet;
-    color: white;
-  }
-  
-  /* Style the collapsible content. Note: hidden by default */
+  background-color: blueviolet;
+  color: white;
+}
+
+/* Style the collapsible content. Note: hidden by default */
 
 .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-  }
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
 
-  .header {
-    background-color: rgb(255, 255, 255);
-    color: rgb(135, 70, 176);
-    font-weight: bold;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: middle;
-    outline: none;
-    font-size: 40px;
-  }
+.header {
+  background-color: rgb(255, 255, 255);
+  color: rgb(135, 70, 176);
+  font-weight: bold;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: middle;
+  outline: none;
+  font-size: 40px;
+}
 
-  .Title {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    padding: 30px;
-    width: 100%;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 60px;
-  }
+.Title {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 30px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 60px;
+}
 
-  .Footer {
-    background-color: black;
-    color: white;
-    height: 80px;
-    width: 100%;
-    vertical-align: middle;
-    align-content: center;
-    align-items: center;
-    padding-block-start: 1.5rem;
-    justify-content: center;
-    flex:content;
+.Footer {
+  background-color: black;
+  color: white;
+  height: 80px;
+  width: 100%;
+  vertical-align: middle;
+  align-content: center;
+  align-items: center;
+  padding-block-start: 1.5rem;
+  justify-content: center;
+  flex:content;
 
-  }
+}
 
-  .iconFoot {
-    background-color: black;
-    color: white;
-    vertical-align: middle;
-    align-content: center;
-    align-items: center;
-    padding: 1.5rem;
-    justify-content: center;
+.iconFoot {
+  background-color: black;
+  color: white;
+  vertical-align: middle;
+  align-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  justify-content: center;
+}
 
-  }
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
 
-  
 
