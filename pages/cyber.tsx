@@ -1,12 +1,16 @@
 import React from 'react'
+
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from './pagestyle.module.css';
+
+import styles from '/src/pagestyle.module.css';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-  import { faTwitter, 
-    faLinkedin, 
-    faFacebook, 
-    faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, 
+         faLinkedin, 
+         faFacebook, 
+         faInstagram } from '@fortawesome/free-brands-svg-icons'
+
 
 const cyber = () => {
   return (

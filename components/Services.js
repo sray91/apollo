@@ -1,12 +1,16 @@
 import React from 'react'
+
 import Link from 'next/link'
-import styles from './layout.module.css';
+
+import styles from '/src/pagestyle.module.css';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComputer,
          faChartLine,
          faProjectDiagram,
          faRoute,
          faShieldAlt } from '@fortawesome/free-solid-svg-icons'
+
 
 const Services = () => {
   return (

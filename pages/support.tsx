@@ -1,16 +1,25 @@
 import React from 'react'
+
 import Head from 'next/head'
-import styles from './pagestyle.module.css';
 import Link from 'next/link'
+
+import styles from '/src/pagestyle.module.css';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, 
+         faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter,
+         faLinkedin, 
+         faFacebook, 
+         faInstagram } from '@fortawesome/free-brands-svg-icons'
+
 
 const support = () => {
   return (
     <>
   <div className="h-screen">
       <Head>
-        <title>ABOUT US Page</title>
+        <title>SUPPORT Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1 className={styles.supportHeader}>SERVICE<br></br>SUPPORT</h1>
@@ -41,6 +50,32 @@ const support = () => {
             respond, we will contact you as soon as possible to help you with any issues you are facing.</h2>
     </div>
 
+    </div>
+    <div className={styles.footerCards}>
+      <h2 className={styles.footerCard}>
+      <Link href="https://linkedin.com">
+        <a className="p-6">
+          <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+        </a>
+      </Link>
+
+      <Link href="https://twitter.com">
+        <a className="p-6">
+          <FontAwesomeIcon icon={faTwitter} size="2x"/>
+        </a>
+      </Link>
+
+      <Link href="https://facebook.com">
+        <a className="p-6">
+          <FontAwesomeIcon icon={faFacebook} size="2x"/>
+        </a>
+      </Link>
+
+      <Link href="https://instagram.com">
+        <a className="p-6">
+          <FontAwesomeIcon icon={faInstagram} size="2x"/>
+        </a>
+      </Link></h2>
     </div>
     </>
   )

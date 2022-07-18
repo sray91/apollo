@@ -1,11 +1,12 @@
-import Navbar from "./Navbar";
 import React from 'react'
 import { useState } from 'react'
-import Link from 'next/link'
+
+import Navbar from "./Navbar";
 import Image from 'next/image'
 import Hamburger from 'hamburger-react'
-// styles
-import styles from "./app.module.css";
+
+
+
 
 const App = () => {
   const [isOpen, setOpen] = useState(false)
@@ -32,7 +33,10 @@ const App = () => {
                 height={50}
               />
             </a>
-            <Navbar />
+            <Hamburger toggled={isOpen} toggle={setOpen} />
+            <div className={`top-[8vh] right-0 fixed border-t-[1px] border-white bg-[#8a2be2]/95 w-full h-full p-10 flex justify-center ${isOpen ? 'translate-x-0':'translate-x-full'} ease-in-out duration-500`}>
+              <Navbar />
+            </div>
           </div>
         </header>
       );

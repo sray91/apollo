@@ -1,0 +1,620 @@
+
+  .collapsible {
+    background-color: rgb(255, 255, 255);
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+  }
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: blueviolet;
+    color:white;
+    background-position: 50%;
+  }
+  
+.heading { 
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 0px;
+  width: auto;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 60px;
+}
+
+.subhead1 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  overflow-wrap: normal;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  width: auto;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+}
+
+.responsive {
+  column-count: 1;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+  color: rgb(135, 70, 176);
+  font-weight: bold;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: middle;
+  outline: none;
+  font-size: 40px;
+}
+
+.Title {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 30px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 60px;
+}
+
+.Footer {
+  background-color: black;
+  color: white;
+  height: 80px;
+  width: 100%;
+  vertical-align: middle;
+  align-content: center;
+  align-items: center;
+  padding-block-start: 1.5rem;
+  justify-content: center;
+  flex:content;
+
+}
+
+.iconFoot {
+  background-color: black;
+  color: white;
+  vertical-align: middle;
+  align-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  justify-content: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+  
+.body {
+  font-family: sans-serif;
+}
+
+.menus {
+  display: inline-block; /*was originally flex*/
+  list-style: none;
+}
+
+.menuItems {
+  display: fixed;
+  position: relative;
+  font-size: 30px;
+}
+
+
+.menuItems button {
+  color: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+}
+
+.menuItems a {
+  text-align: center;
+  padding: 10px;
+  background-color:none;
+  display: block;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menuItems button:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  /*text-decoration: underline;*/
+  border: solid white;
+  border-width: 1px;
+}
+
+.menuItems a:hover{
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: solid white;
+  border-width: 1px;
+} 
+
+.arrow::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.28em;
+  vertical-align: 0.09em;
+  border-top: 0.42em solid;
+  border-right: 0.32em solid transparent;
+  border-left: 0.32em solid transparent;
+}
+
+/*individual page header formating*/
+/*Services Header*/
+.servicesHeader {
+  /*background*/
+  background-image: URL("images/worldNew.jpg");
+  background-position: 50%;
+  /*text*/
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke: 0px;
+  -webkit-text-stroke-color: black;
+  /*page*/
+  padding: 70px;
+  width: 100%;
+  height: fit-content;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  font-size: 60px;
+}  
+
+/*contact*/
+.contactUsHeader {
+  /*background*/
+  background-image: URL("images/laptopNew.jpg");
+  background-position: 50%;
+  /*text*/
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke: 0px;
+  -webkit-text-stroke-color: black;
+  /*page*/
+  padding: 40px;
+  width: 100%;
+  height: fit-content;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  font-size: 60px;
+} 
+
+  /*Managed IT*/
+  .manageHeader {
+  /*background*/
+  background-image: URL("images/supportNew.jpg");
+  background-position: 50%;
+  /*text*/
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke: 0px;
+  -webkit-text-stroke-color: black;
+  /*page*/
+  padding: 50px;
+  width: 100%;
+  height: fit-content;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  font-size: 60px;
+}  
+
+/*cybersecurity*/
+.cyberHeader {
+  /*background*/
+  background-image: URL("images/cyberNew.jpg");
+  background-position: 50%;
+  /*text*/
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke: 0px;
+  -webkit-text-stroke-color: black;
+  /*page*/
+  padding: 50px;
+  width: 100%;
+  height: fit-content;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  font-size: 60px;
+}
+
+/*project mgmt*/
+.projectHeader {
+  /*background*/
+  background-image: URL("images/projectNew.jpg");
+  background-position: 50%;
+  /*text*/
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke: 0px;
+  -webkit-text-stroke-color: black;
+  /*page*/
+  padding: 50px;
+  width: 100%;
+  height: fit-content;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  font-size: 60px;
+}
+
+/*strategy*/
+.strategyHeader {
+  /*background*/
+  background-image: URL("images/StratNew.jpg");
+  background-position: 50%;
+  /*text*/
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke: 0px;
+  -webkit-text-stroke-color: black;
+  /*page*/
+  padding: 50px;
+  width: 100%;
+  height: fit-content;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  font-size: 60px;
+}  
+
+/*transformation*/
+.tfHeader {
+  /*background*/
+  background-image: URL("images/advanceNew.jpg");
+  background-position: 50%;
+  /*text*/
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke: 0px;
+  -webkit-text-stroke-color: black;
+  /*page*/
+  padding: 50px;        
+  width: 100%;
+  height: fit-content;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  font-size: 60px;
+}  
+
+/*about*/
+.aboutHeader {
+  /*background*/
+  background-image: URL("images/riverNew.jpg");
+  background-position: 50%;
+  /*text*/
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke: 0px;
+  -webkit-text-stroke-color: black;
+  /*page*/
+  padding: 50px;
+  width: 100%;
+  height: fit-content;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  font-size: 60px;
+}  
+
+/*about*/
+.approachHeader {
+  /*background*/
+  background-image: URL("images/bridgeNew.jpg");
+  background-position: 50%;
+  /*text*/
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke: 0px;
+  -webkit-text-stroke-color: black;
+  /*page*/
+  padding: 50px;
+  width: 100%;
+  height: fit-content;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  font-size: 60px;
+} 
+
+/*contact*/
+.supportHeader {
+  /*background*/
+  background-image: URL("images/emergencyNew.jpg");
+  background-position: 50%;
+  /*text*/
+  color:white;
+  font-weight: bold;
+  -webkit-text-stroke: 0px;
+  -webkit-text-stroke-color: black;
+  /*page*/
+  padding: 50px;
+  width: 100%;
+  height: fit-content;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  font-size: 60px;
+}  
+
+
+/*cards*/
+.smallCard {
+  background-color: white;
+  color:black;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+  height: auto;
+}
+
+.footerCard {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  height: auto;
+}
+
+.smallActCard {
+  background-color: white;
+  color:black;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 2px;
+  padding-right: 2px;
+  height: auto;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.smallActCard:hover {
+  background-color: blueviolet;
+  background-position: 50%;
+  color: white;
+}
+
+.largeCard {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  overflow-wrap: normal;
+  outline: none;
+  font-size: 15px;
+  padding: 0;
+  height: auto;
+}
+
+.buttonCard {
+  background-color: white;
+  color: blueviolet;
+  text-align: center;
+  overflow-wrap: normal;
+  outline: none;
+  font-size: 15px;
+  padding: 0;
+  height: auto;
+}
+
+.leftCard {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  text-align: left;
+  font-size: 15px;
+  padding: 0;
+  margin: 0 auto;
+  height: auto;
+  margin: 10px;
+}
+
+.subHeadCard {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  text-align: Left;
+  vertical-align: middle;
+  overflow-wrap: normal;
+  padding: 0;
+  padding-top: 0px;
+  height: auto;
+  font-weight: bold;
+  overflow-wrap: normal;
+  text-align: center;
+  font-size: 20px;
+}
+
+.subHeadCard1 {
+  background-color: white;
+  color: blueviolet;
+  border: none;
+  text-align: Left;
+  vertical-align: middle;
+  overflow-wrap: normal;
+  padding: 0;
+  padding-top: 0px;
+  height: auto;
+  font-weight: bold;
+  overflow-wrap: normal;
+  text-align: center;
+  font-size: 20px;
+}
+
+.divideCard {
+  background-color: none;
+  color: white;
+  text-align: center;
+  height: 2px;
+}
+
+.smallLine {
+  background-color: black;
+  color:black;
+  text-align: center;
+  height: 2px;
+}
+
+.singleCards {
+  max-width: 75%;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Screen larger than 600px? 1 column */
+@media (min-width: 600px) {
+  .singleCards { grid-template-columns: repeat(1, 1fr); }
+}
+
+.cards {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Screen larger than 600px? 2 column */
+@media (max-width: 600px) {
+  .cards { grid-template-columns: repeat(1, 1fr); }
+}
+
+  
+.multiCards {
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Screen larger than 600px? 3 column */
+@media (min-width: 600px) {
+  .multiCards { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Screen smaller than 600px? 2 column */
+@media (max-width: 600px) {
+  .multiCards { grid-template-columns: repeat(2, 2fr); }
+}
+
+.multiCards1 {
+  max-width: 75%;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+    
+/* Screen larger than 600px? 5 column */
+@media (min-width: 700px) {
+  .multiCards1 { grid-template-columns: repeat(5, 1fr); }
+}
+
+/* Screen smaller than 600px? 3 column */
+@media (max-width: 700px) {
+  .multiCards1 { grid-template-columns: repeat(3, 2fr); }
+}
+
+.imgCards {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+  /* Screen larger than 600px? 2 column */
+  @media (min-width: 600px) {
+    .imgCards { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  /* Screen larger than 900px? 3 columns */
+  @media (min-width: 900px) {
+    .imgCards { grid-template-columns: repeat(3, 1fr); }
+  }
+
+.footerCards {
+  background-color: black;
+  Width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 0px;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 700px) {
+  .footerCards { grid-template-columns: repeat(1, 1fr); }
+}
+
+/* Screen smaller than 600px? 2 column */
+@media (max-width: 700px) {
+  .footerCards { grid-template-columns: repeat(1, 1fr); }
+}

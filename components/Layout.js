@@ -1,12 +1,10 @@
-
-import App from "./App"
-import React, { useState, useEffect } from "react";
+import React from "react";
+import Banner from "./dropdown/Banner";
 
 export default function Layout({children}) {
   return (
     <div>
-      {/*<Sidebar />*/}
-      <App />
+      <Banner />
       {children}
 
     </div>
