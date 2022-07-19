@@ -28,14 +28,14 @@ const it_mgmt = () => {
     <h3 className={styles.divideCard}></h3>
       <h2 className={styles.subHeadCard}>FOCUS ON YOUR BUSINESS, LET US WORRY ABOUT YOUR TECHNOLOGY.</h2>
       <h3 className={styles.smallLine}></h3>
-            <p className={styles.largeCard}>IT should be a strategic asset that helps your business succeed. However, an IT system that is not 
-            performing optimally can be a distraction that causes continuous problems for your business. A Managed Services Provider (MSP) can 
-            supplement your inhouse IT department or become your IT department, simplifying your IT operations, and reducing costs.
+            <p className={styles.largeCard}>Technology should be a strategic asset that helps your business succeed. When it's not working properly, it can 
+            be a major distraction.
             <br></br><br></br>
-            At Apollo Systems, we believe that the highest quality service happens through true partnership. We partner with small and medium-sized 
-            businesses in the Charleston area to help them identify how IT can be used to best achieve their overall goal. Our IT experts will 
-            empower your team and help you leverage best-in-class technology that will help you secure and grow your business, reduce costs, and 
-            allow your team to work more effectively. We firmly believe that when you succeed, we succeed.</p>
+            At Apollo Systems, we have the experience to either help your internal IT department if they are overextended, or the expertise to completely manage
+            all of your IT needs for you. 
+            <br></br><br></br>
+            Our goal is building trust based on real partnership and commitment to your needs. Our IT experts will empower you to leverage technology in a way 
+            that will help you secure your business, reduce costs, and allow you to work more effectively.</p>
     </div>
     <br></br>
     
@@ -70,15 +70,16 @@ const it_mgmt = () => {
       <h4 className={styles.smallCard}><FontAwesomeIcon icon={faRoute} size="1x"/><br></br>12-36 Month Growth Plan</h4>
       <h4 className={styles.smallCard}><FontAwesomeIcon icon={faCalculator} size="1x"/><br></br>Easy to Understand Pricing</h4>
     </div>
-    <br></br>
+    <br></br><br></br>
+
     
     <div className={styles.cards}>
       <h2 className={styles.smallCard}></h2>
-      <h2 className={styles.smallCard}>
+      <button className={styles.contactCard}>
         <Link href="/#contact-section">
-          <button className={styles.collapsible}>FIND OUT MORE</button>
-        </Link> 
-      </h2>
+          FIND OUT MORE
+        </Link>
+      </button>
       <h2 className={styles.smallCard}></h2>
     </div>
     <br></br>
