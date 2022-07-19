@@ -23,16 +23,24 @@ const about = () => {
 
     <div className={styles.singleCards}>
       <h3 className={styles.divideCard}></h3>
-      <h1 className={styles.subHeadCard}>CHARLESTON OWNED AND LOWCOUNTRY FOCUSED</h1>
+      <h1 className={styles.subHeadCard}>CHARLESTON OWNED, LOWCOUNTRY FOCUSED</h1>
       <h1 className={styles.smallLine}></h1>
-            <h2 className={styles.largeCard}>Apollo Systems is a Charleston owned and grown business. 
-            Our goal is to focus on meeting the technology needs of Small and Medium businesses within 
-            the Charleston area, to help make them more successful. Our team has over 20 years of 
-            combined experience, and come armed with a variety of skills including:</h2>
+            <h2 className={styles.largeCard}>Apollo Systems is a locally owned and grown business. Our goal is to focus on meeting the 
+            technology needs of businesses in the Lowcountry, to help make them more successful.<br></br><br></br> 
+            We understand businesses and goals are different depending on the company and industry, and we work to develop 
+            partnerships with our clients that not only ensure their information technology and security needs are met, but 
+            that they are enabled to succeed longterm.</h2>
     </div>
     <br></br>
-    <div className={styles.cards}>
 
+    <div className={styles.singleCards}>
+      <h1 className={styles.smallLine}></h1>
+      <h1 className={styles.subHeadCard}>CRITICAL SKILLS BUILT ON REAL-WORLD EXPERIENCE</h1>
+      <h1 className={styles.smallLine}></h1>
+            <h2 className={styles.largeCard}>Our team has over 30 years of combined experience, and come armed with a variety of skills including:</h2>
+    </div>
+    
+    <div className={styles.cards}>
       <h3 className={styles.leftCard}>
           <ol>
             <li>Internal and external IT systems</li>
@@ -48,20 +56,9 @@ const about = () => {
             <li>Web development</li>
             <li>Hardware Setup and Installation</li>
             </ol></h3>
+      </div>
 
-    </div>
-    <br></br>
-    <div className={styles.singleCards}>
-      <h1 className={styles.smallLine}></h1>
-      <h1 className={styles.subHeadCard}>CRITICAL SKILLS BUILT ON REAL-WORLD EXPERIENCE</h1>
-      <h1 className={styles.smallLine}></h1>
-            <h2 className={styles.largeCard}>We have worked with and for mutliple companies of various 
-            sizes, including both fortune 500 companies and small to medium businesses. In the past, 
-            we have found ourselves in many of the situations our clients face everyday, and come armed 
-            with the learned skills to quickly produce results.<br></br><br></br>We understand businesses and goals are 
-            different depending on the company and industry, and we work to develop partnerships with our 
-            clients that not only ensure their information technology and security needs are met, but 
-            that they are enabled to succeed longterm.</h2>
+      <div className={styles.singleCards}>
       <br></br>
       <h1 className={styles.smallLine}></h1>
       <h1 className={styles.subHeadCard}>MEET OUR TEAM:</h1>
@@ -82,18 +79,19 @@ const about = () => {
         <a>Cory Hank</a>
       </h2>
     </div> 
-    <br></br>
+    <br></br><br></br>
 
     <div className={styles.cards}>
       <h2 className={styles.smallCard}></h2>
-      <h2 className={styles.smallCard}>
+      <button className={styles.contactCard}>
         <Link href="/#contact-section">
-          <button className={styles.collapsible}>FIND OUT MORE</button>
-        </Link> 
-      </h2>
+          FIND OUT MORE
+        </Link>
+      </button>
       <h2 className={styles.smallCard}></h2>
     </div>
     <br></br>
+
 
     <div className={styles.footerCards}>
       <h2 className={styles.footerCard}>

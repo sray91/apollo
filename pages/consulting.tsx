@@ -26,9 +26,10 @@ const consulting = () => {
       <h3 className={styles.divideCard}></h3>
       <h2 className={styles.subHeadCard}>GROW YOUR BUSINESS CAPABILITIES</h2>
       <h3 className={styles.smallLine}></h3>
-            <p className={styles.largeCard}>At Apollo, we understand that knowledge and understanding of IT related business matters may not be the most important concern
-            for your business. We also understand that small and medium-sized businesses may not have access to Subject Matter Experts capable of answering questions about
-            technology concerns. That is why we partner with you to provide sound strategic guidance that is easy to understand. Our goal is to empower you and your team to 
+            <p className={styles.largeCard}>At Apollo, we understand that knowledge and understanding of IT related business matters is not always easy to find. 
+            That is why we partner with you to provide sound strategic guidance that is easy to understand. 
+            <br></br><br></br>
+            Our goal is to empower you and your team to 
             make informed decisions based on your goals to take your business to the next level.</p>
     </div>
     
@@ -40,27 +41,25 @@ const consulting = () => {
 
 
         <h3 className={styles.subHeadCard1}>IT Consulting</h3>
-            <p className={styles.largeCard}>With Apollo you have access to affordable guidance and strategic insights you need to manage a small to medium-sized business.</p>
+            <p className={styles.largeCard}>Access to affordable guidance and strategic insights you need to manage your business.</p>
         <h3 className={styles.subHeadCard1}>Baseline Systems & Security Audits</h3>
-            <p className={styles.largeCard}>Our audits offer a broad-spectrum analysis of your critical systems, software, and services in place. This analysis helps to identify 
-            solutions that can not only make your business more secure and efficient, but can also save you money.</p>
-        <h3 className={styles.subHeadCard1}>Technology Transformation</h3>
-            <p className={styles.largeCard}>Technology is constantly evolving and advancing. At Apollo, we can provide insight into emerging tools, growing trends, and industry
-            best practices to help your business maintain or grow its competitive advantage.</p> 
+            <p className={styles.largeCard}>Perform detailed audits and analysis of your critical systems, to identify solutions that can not only make your business more secure and efficient, 
+            but can also save you money.</p>
         <h3 className={styles.subHeadCard1}>Strategic Planning</h3>
-            <p className={styles.largeCard}>We work with you to create a detailed Technology Plan, tailored to your meet your specific business needs, desired growth, and aligned 
-            to your budget.</p>
-
+            <p className={styles.largeCard}>Partner with you to create a detailed Technology Plan, tailored to your meet your specific business needs, desired growth, and aligned to your budget.</p>
+        <h3 className={styles.subHeadCard1}>Technology Transformation</h3>
+            <p className={styles.largeCard}>Provide insight into emerging tools, growing trends, and industry best practices to help your business maintain or grow its competitive advantage.</p> 
+            <h3 className={styles.divideCard}></h3>
+        <h3 className={styles.divideCard}></h3>
     </div>
-    <br></br>
     
     <div className={styles.cards}>
       <h2 className={styles.smallCard}></h2>
-      <h2 className={styles.smallCard}>
+      <button className={styles.contactCard}>
         <Link href="/#contact-section">
-          <button className={styles.collapsible}>FIND OUT MORE</button>
-        </Link> 
-      </h2>
+          FIND OUT MORE
+        </Link>
+      </button>
       <h2 className={styles.smallCard}></h2>
     </div>
     <br></br>
