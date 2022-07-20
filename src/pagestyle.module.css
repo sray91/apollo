@@ -173,6 +173,7 @@
 
 .menuItems button:hover {
   background-color: rgba(0, 0, 0, 0.6);
+  background-image: URL("/circuitSmall.png");
   /*text-decoration: underline;*/
   border: solid white;
   border-width: 1px;
@@ -182,6 +183,8 @@
   color: white;
   font-weight: bold;
   background-color: rgba(0, 0, 0, 0.6);
+  background-image: URL("/circuitSmall.png");
+  background-position: 20% 40%;
   border: solid white;
   border-width: 1px;
 } 
@@ -473,7 +476,8 @@
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .contactCard:hover {
   background-color: blueviolet;
-  background-position: 50%;
+  background-position: 0% 25%;
+  background-image: URL("/circuitSmall.png");
   color: white;
   border-radius: 25px;
   border: 2px solid black;
@@ -487,7 +491,7 @@
   margin: 0 auto;
   text-align: center;
   justify-content: center;
-  height: 50px;
+  height: 80px;
   width: 350px;
   border-radius: 10px;
   border: 2px solid black;
@@ -496,7 +500,7 @@
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .serviceCard:hover {
   background-color: blueviolet;
-  background-position: 50%;
+  background-image: URL("/circuitSmall.png");
   color: white;
   border-radius: 10px;
   border: 2px solid black;
