@@ -16,7 +16,7 @@ import { faTwitter,
 
 const approach = () => {
   return (
-    <div className="h-screen">
+    <div className={styles.bkImg}>
       <Head>
         <title>OUR APPROACH Page</title>
         <link rel="icon" href="/favicon.ico" />

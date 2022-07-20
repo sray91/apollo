@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Link from 'next/link'
+import Head from 'next/head';
 
 import styles from '/src/pagestyle.module.css';
 
@@ -14,28 +15,74 @@ import { faComputer,
 
 const Services = () => {
   return (
-    <div className="h-screen bg-white" id="services-section">
-        <h1 className={styles.servicesHeader}>OUR SERVICES</h1>    
-        <br></br>                  
-        <Link href="/it_mgmt">
-        <button className={styles.collapsible}><FontAwesomeIcon icon={faComputer} size="1x"/>&nbsp;&nbsp;&nbsp;MANAGED IT SOLUTIONS</button>
-        </Link>
+    <div className={styles.bkImg} id="services-section">
+      <Head>
+        <title>SERVICES Page</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+        <h1 className={styles.servicesHeader}>OUR<br></br>SERVICES</h1>    
         <br></br>
-        <Link href="/cyber">
-        <button className={styles.collapsible}><FontAwesomeIcon icon={faShieldAlt} size="1x"/>&nbsp;&nbsp;&nbsp;MANAGED CYBERSECURITY</button>
-        </Link>
+
+        <div className={styles.cards}>
+          <h2 className={styles.smallCard}></h2>
+            <button className={styles.serviceCard}>
+              <Link href="/it_mgmt">
+                <h1>
+                  <FontAwesomeIcon icon={faComputer} size="1x"/>
+                  &nbsp;&nbsp;&nbsp;
+                  MANAGED IT SOLUTIONS
+                </h1>
+              </Link>
+            </button>
+          <h2 className={styles.smallCard}></h2>
+        </div>
         <br></br>
-        <Link href="/projectMgmt">
-        <button className={styles.collapsible}><FontAwesomeIcon icon={faProjectDiagram} size="1x"/>&nbsp;&nbsp;&nbsp;PROJECT MANAGEMENT</button>
-        </Link>
+
+        <div className={styles.cards}>
+          <h2 className={styles.smallCard}></h2>
+            <button className={styles.serviceCard}>
+              <Link href="/cyber">
+                <h1>
+                  <FontAwesomeIcon icon={faShieldAlt} size="1x"/>
+                  &nbsp;&nbsp;&nbsp;
+                  MANAGED CYBERSECURITY
+                </h1>
+              </Link>
+            </button>
+          <h2 className={styles.smallCard}></h2>
+        </div>
         <br></br>
-        <Link href="/consulting">
-        <button className={styles.collapsible}><FontAwesomeIcon icon={faRoute} size="1x"/>&nbsp;&nbsp;&nbsp;STRATEGIC CONSULTING</button>
-        </Link>
+
+        <div className={styles.cards}>
+          <h2 className={styles.smallCard}></h2>
+            <button className={styles.serviceCard}>
+              <Link href="/projectMgmt">
+                <h1>
+                  <FontAwesomeIcon icon={faProjectDiagram} size="1x"/>
+                  &nbsp;&nbsp;&nbsp;
+                  PROJECT MANAGEMENT
+                </h1>
+              </Link>
+            </button>
+          <h2 className={styles.smallCard}></h2>
+        </div>
         <br></br>
-        <Link href="/procurement">
-        <button className={styles.collapsible}><FontAwesomeIcon icon={faChartLine} size="1x"/>&nbsp;&nbsp;&nbsp;IT PROCUREMENT & INSTALLATION</button>
-        </Link>
+
+        <div className={styles.cards}>
+          <h2 className={styles.smallCard}></h2>
+            <button className={styles.serviceCard}>
+              <Link href="/consulting">
+                <h1>
+                  <FontAwesomeIcon icon={faRoute} size="1x"/>
+                  &nbsp;&nbsp;&nbsp;
+                  STRATEGIC CONSULTING
+                </h1>
+              </Link>
+            </button>
+          <h2 className={styles.smallCard}></h2>
+        </div>
+        <br></br>
+
     </div>
     
   )

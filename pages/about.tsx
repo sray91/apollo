@@ -14,7 +14,7 @@ import { faTwitter,
 
 const about = () => {
   return (
-    <div className="h-screen">
+    <div className={styles.bkImg}>
       <Head>
         <title>ABOUT US Page</title>
         <link rel="icon" href="/favicon.ico" />

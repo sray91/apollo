@@ -14,7 +14,7 @@ import { faTwitter,
 
 const consulting = () => {
   return (
-    <div className="h-screen">
+    <div className={styles.bkImg}>
       <Head>
         <title>IT STRATEGIC CONSULTING Page</title>
         <link rel="icon" href="/favicon.ico" />

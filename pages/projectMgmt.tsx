@@ -22,7 +22,7 @@ import { faTwitter,
           
 const projectMgmt = () => {
   return (
-    <div className="h-screen">
+    <div className={styles.bkImg}>
       <Head>
         <title>PROJECT MANAGEMENT Page</title>
         <link rel="icon" href="/favicon.ico" />
