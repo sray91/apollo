@@ -12,7 +12,7 @@ const App = () => {
   const [isOpen, setOpen] = useState(false)
     return (
         <header>
-          <div className="flex bg-black text-white border-b-[1px] border-purple-400 h-20 justify-between items-center sticky top-0 z-10">
+          <div className="flex bg-black text-white border-b-[2px] border-[#8a2be2] h-20 justify-between items-center sticky top-0 z-10">
             <a href="/">
               <Image
                 src="/apolloLogo.svg"

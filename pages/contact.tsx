@@ -18,7 +18,7 @@ const contact = () => {
   const [isSent, setIsSent] = useState(false)
   return (
       <>
-        <div className="h-screen bg-white" id="contact-section">
+        <div className={styles.bkContact} id="contact-section">
             <h1 className={styles.contactUsHeader}>CONTACT<br></br>US</h1>      
 
             <div className={cards.singleCards}>
@@ -38,7 +38,7 @@ const contact = () => {
             </div>
             ) : 
             (
-            <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 bg-gray-100 dark:bg-purple-500">
+            <form className="rounded-lg shadow-xl flex flex-col px-8 py-8 outline outline-gray-700 outline-2 bg-gray-100 dark:bg-purple-500">
                 <h1 className="text-2xl font-bold dark:text-gray-50">SEND A MESSAGE</h1>
                 <label htmlFor="fullname" className="text-gray-900 font-light mt-8 dark:text-gray-50">FULL NAME<span className="text-red-500 dark:text-gray-50">*</span></label>
                 <input type="text" name="fullname" className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500" />
@@ -66,16 +66,22 @@ const contact = () => {
         </div>
 
         </div>
-        <div className={cards.cards}>
-          <h2 className={cards.smallCard}></h2>
-          <h2 className={cards.smallCard}>
+        <div className={styles.cards}>
+          <h2 className={styles.smallCard}></h2>
+          <button className={styles.contactCard}>
             <Link href="/">
-              <button className={cards.collapsible}>BACK TO TOP</button>
-            </Link> 
-          </h2>
-          <h2 className={cards.smallCard}></h2>
+              BACK HOME
+            </Link>
+          </button>
+          <h2 className={styles.smallCard}></h2>
         </div>
-        <br></br>
+
+        <div className={cards.singleCards}>
+            <h3 className={cards.divideCard}></h3>
+            <h3 className={cards.divideCard}></h3>
+            <h3 className={cards.divideCard}></h3>
+        </div>
+
 
         <div className={cards.footerCards}>
           <h2 className={cards.footerCard}>

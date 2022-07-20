@@ -17,7 +17,7 @@ import { faTwitter,
 const support = () => {
   return (
     <>
-  <div className="h-screen">
+  <div className={styles.bkImg}>
       <Head>
         <title>SUPPORT Page</title>
         <link rel="icon" href="/favicon.ico" />

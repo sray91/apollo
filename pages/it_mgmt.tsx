@@ -16,7 +16,7 @@ import { faTwitter,
 
 const it_mgmt = () => {
   return (
-    <div className="h-screen">
+    <div className={styles.bkImg}>
       <Head>
         <title>IT MANAGEMENT Page</title>
         <link rel="icon" href="/favicon.ico" />

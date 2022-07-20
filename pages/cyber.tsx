@@ -15,7 +15,7 @@ import { faTwitter,
 
 const cyber = () => {
   return (
-    <div className="h-screen">
+    <div className={styles.bkImg}>
       <Head>
         <title>CYBERSECURITY Page</title>
         <link rel="icon" href="/favicon.ico" />

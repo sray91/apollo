@@ -1,5 +1,24 @@
+.bkImg {
+  height: 100vh;
+  background-color: white;
+  background-image: linear-gradient(
+    to bottom, transparent, white
+  ),url('/bkDesk.png');
+  background-repeat: no-repeat;
+  position: center;
+}
 
-  .collapsible {
+.bkContact {
+  height: 100%;
+  background-color: white;
+  background-image: linear-gradient(
+    to top, transparent, white
+  ),url('/bkCoffee.jpg');
+  background-repeat: no-repeat;
+  position: center;
+}
+ 
+ .collapsible {
     background-color: rgb(255, 255, 255);
     color: blueviolet;
     font-weight: bold;
@@ -112,8 +131,6 @@
   font-family: sans-serif;
   text-align: center;
 }
-
-
   
 .body {
   font-family: sans-serif;
@@ -183,7 +200,7 @@
 /*Services Header*/
 .servicesHeader {
   /*background*/
-  background-image: URL("images/worldNew.jpg");
+  background-image: URL("images/aerialNew.jpg");
   background-position: 50%;
   /*text*/
   color:white;
@@ -191,10 +208,10 @@
   -webkit-text-stroke: 0px;
   -webkit-text-stroke-color: black;
   /*page*/
-  padding: 70px;
+  padding: 40px;
   width: 100%;
   height: fit-content;
-  border: none;
+  border-top: 2px blueviolet solid;
   text-align: center;
   vertical-align: middle;
   outline: none;
@@ -393,7 +410,7 @@
 
 /*cards*/
 .smallCard {
-  background-color: white;
+  background-color: none;
   color:black;
   margin: 0 auto;
   text-align: center;
@@ -421,7 +438,7 @@
 }
 
 .smallActCard {
-  background-color: white;
+  background-color: none;
   color:black;
   margin: 0 auto;
   text-align: center;
@@ -462,20 +479,44 @@
   border: 2px solid black;
 }
 
-.largeCard {
+.serviceCard {
   background-color: white;
+  color:blueviolet;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  height: 50px;
+  width: 350px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.serviceCard:hover {
+  background-color: blueviolet;
+  background-position: 50%;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.largeCard {
+  background-color: none;
   color: rgb(0, 0, 0);
   text-align: center;
   overflow-wrap: normal;
   outline: none;
   font-size: 15px;
+  font-weight: 500;
   padding-left: 75px;
   padding-right: 75px;
   height: auto;
 }
 
 .buttonCard {
-  background-color: white;
+  background-color: none;
   color: blueviolet;
   text-align: center;
   overflow-wrap: normal;
@@ -492,7 +533,7 @@
 }
 
 .leftCard {
-  background-color: white;
+  background-color: none;
   color: rgb(0, 0, 0);
   border: none;
   text-align: left;
@@ -504,7 +545,7 @@
 }
 
 .leftCard1 {
-  background-color: white;
+  background-color: none;
   color: rgb(0, 0, 0);
   border: none;
   font-size: 15px;
@@ -517,7 +558,7 @@
 }
 
 .subHeadCard {
-  background-color: white;
+  background-color: none;
   color: rgb(0, 0, 0);
   border: none;
   text-align: Left;
@@ -533,7 +574,7 @@
 }
 
 .subHeadCard1 {
-  background-color: white;
+  background-color: none;
   color: blueviolet;
   border: none;
   text-align: Left;
@@ -550,7 +591,7 @@
 
 .divideCard {
   background-color: none;
-  color: white;
+  color: none;
   text-align: center;
   height: 2px;
 }
