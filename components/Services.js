@@ -6,11 +6,21 @@ import Head from 'next/head';
 import styles from '/src/pagestyle.module.css';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faComputer,
-         faChartLine,
+import { faTwitter, 
+         faLinkedin, 
+         faFacebook, 
+         faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faBrain,
+         faGaugeSimpleHigh,
+         faEye,
+         faUserShield,
+         faBuildingColumns,
+         faComputer,
+         faShieldAlt,
          faProjectDiagram,
          faRoute,
-         faShieldAlt } from '@fortawesome/free-solid-svg-icons'
+         faPercent,
+         faPuzzlePiece} from '@fortawesome/free-solid-svg-icons'
 
 
 const Services = () => {
@@ -82,6 +92,106 @@ const Services = () => {
           <h2 className={styles.smallCard}></h2>
         </div>
         <br></br>
+
+        <div className={styles.singleCards}>
+          <h3 className={styles.divideCard}></h3>
+          <h3 className={styles.divideCard}></h3>
+          <h3 className={styles.smallLine}></h3>
+          <h2 className={styles.subHeadCard}>BETTER IT SUPPORT</h2>
+          <h3 className={styles.smallLine}></h3>
+        </div>
+        <br></br>
+
+        <div className={styles.singleCards}>
+          <div className={styles.imgCards}>
+            <h2 className={styles.servSmallCard1}>
+              <img className={styles.servImg} src="./security.jpg" alt="Ryan"></img>
+              <a className={styles.aServStyle}>
+                SECURITY-FOCUSED
+              </a>
+              <br></br><br></br>
+              <p className={styles.pServStyle}>
+                We ensure your organizations data and information are kept secure and protected.
+              </p>
+            </h2>
+            <h2 className={styles.servSmallCard2}>
+              <img className={styles.servImg} src="./dependable.jpg" alt="Ryan"></img>
+              <a className={styles.aServStyle}>
+                RELIABILITY-BASED
+              </a>
+              <br></br><br></br>
+              <p className={styles.pServStyle}>
+                We help you adapt to changes and maintain information security.
+              </p>
+            </h2>
+          </div> 
+        </div>
+
+        <div className={styles.singleCards}>
+          <div className={styles.imgCards}>
+            <h2 className={styles.servSmallCard1}>
+              <img className={styles.servImg} src="./growth.jpg" alt="Support" width="200px" height="200px"></img>
+              <a className={styles.aServStyle}>
+                STRATEGY-GUIDED
+              </a>
+              <br></br><br></br>
+              <p className={styles.pServStyle}>
+                We provide robust technology strategies implemented to support expansion, not limit it.
+              </p>
+            </h2>
+            <h2 className={styles.servSmallCard2}>
+              <img className={styles.servImg} src="./tech.jpg" alt="Cory" width="200px" height="200px"></img>
+              <a className={styles.aServStyle}>
+                TECHNOLOGY-DRIVEN
+              </a>
+              <br></br><br></br>
+              <p className={styles.pServStyle}>
+                We power operational continuity with industry leading IT support and services.
+              </p>
+            </h2>
+          </div>
+          <br></br> 
+        </div>                                
+
+        <br></br>
+
+        <div className={styles.cards}>
+          <h2 className={styles.smallCard}></h2>
+          <button className={styles.contactCard}>
+            <Link href="/#contact-section">
+              FIND OUT MORE
+            </Link>
+          </button>
+          <h2 className={styles.smallCard}></h2>
+        </div>
+        <br></br>
+
+        <div className={styles.footerCards}>
+          <h2 className={styles.footerCard}>
+          <Link href="https://linkedin.com">
+            <a className="p-6">
+              <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+            </a>
+          </Link>
+
+          <Link href="https://twitter.com">
+            <a className="p-6">
+              <FontAwesomeIcon icon={faTwitter} size="2x"/>
+            </a>
+          </Link>
+
+          <Link href="https://facebook.com">
+            <a className="p-6">
+              <FontAwesomeIcon icon={faFacebook} size="2x"/>
+            </a>
+          </Link>
+
+          <Link href="https://instagram.com">
+            <a className="p-6">
+              <FontAwesomeIcon icon={faInstagram} size="2x"/>
+            </a>
+          </Link></h2>
+        </div>
 
     </div>
     
