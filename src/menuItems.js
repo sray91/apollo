@@ -5,7 +5,7 @@ export const menuItems = [
      submenu: [
       {
        title: "ABOUT US",
-       link: '/about',
+       link: '/about_us',
 
       },
       {
@@ -32,19 +32,19 @@ export const menuItems = [
        submenu: [
         {
          title: "MANAGED IT SUPPORT",
-         link: '/it_mgmt',
+         link: '/managed_it',
         },
         {
          title: "CYBERSECURITY",
-         link: '/cyber',
+         link: '/cyber_security',
         },
         {
          title: "PROJECT MANAGEMENT",
-         link: '/projectMgmt',
+         link: '/project_mgmt',
         },
         {
          title: "IT CONSULTING",
-         link: '/consulting',
+         link: '/it_consulting',
         }
     ],
     },

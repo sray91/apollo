@@ -7,7 +7,18 @@ import { faComputer,
          faChartLine,
          faProjectDiagram,
          faRoute,
-         faShieldAlt } from '@fortawesome/free-solid-svg-icons'
+         faShieldAlt, 
+         faUserShield,
+         faGaugeSimpleHigh,
+         faEye,
+         faBrain,
+         faHandHoldingDollar,
+         faPhone,
+         faMagnifyingGlass,
+         faGears,
+         faLockOpen,
+         faGear,
+         faArrowRotateForward} from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, 
          faLinkedin, 
          faFacebook, 
@@ -27,60 +38,102 @@ const approach = () => {
       <h3 className={styles.divideCard}></h3>
       <h1 className={styles.subHeadCard}>FOCUSED ON SECURITY, SCALABILITY, & GROWTH.</h1>
       <h1 className={styles.smallLine}></h1>
-            <h2 className={styles.largeCard}>Your technology strategy must be designed to maximize efficiencies, scaleability, 
+            <h2 className={styles.largeCard}>At Apollo, all our service and support offerings are designed to maximize efficiencies, enable scaleability, 
             and most of all, support your business needs.
             <br></br><br></br>
-            All our services are based on concepts derived from four fundamental pillars:</h2>
+            We deploy strategic concepts derived from five basic core fundamentals.</h2>
+      <h3 className={styles.divideCard}></h3>
+
     </div>
 
-    <br></br>
     <div className={styles.singleCards}>
+      <h3 className={styles.divideCard}></h3>
       <h1 className={styles.smallLine}></h1>
-      <h1 className={styles.subHeadCard}>STRATEGIC SOURCING</h1>
+      <h1 className={styles.subHeadCard}>APOLLO IS:</h1>
       <h1 className={styles.smallLine}></h1>
-            <h2 className={styles.largeCard}>One of the forgotten challenges of most companies is hardware 
-            lifecycle management. Technology evolves so rapidly and so does the software we use.
-            <br></br><br></br>
-            We work with you to develop hardware procurement and software license strategies tjat help make your budgets more 
-            predictable and manageable.</h2>
-      <br></br>
-      </div>
+      <h3 className={styles.divideCard}></h3>
+    </div>
 
-    <div className={styles.singleCards}>
-      <h1 className={styles.smallLine}></h1>
-      <h1 className={styles.subHeadCard}>NETWORK SECURITY</h1>
-      <h1 className={styles.smallLine}></h1>
-            <h2 className={styles.largeCard}>Poor network set-up and management is a very common way that businesses unknowingly 
-            compromise their own security.
-            <br></br><br></br> 
-            We take a wholistic approach to network design, which increases both your network security and reliability.</h2>
-      <br></br>
-      </div>
 
-      <div className={styles.singleCards}>
-      <h1 className={styles.smallLine}></h1>
-      <h1 className={styles.subHeadCard}>USER TRAINING</h1>
-      <h1 className={styles.smallLine}></h1>
-            <h2 className={styles.largeCard}>No matter how much any company spends on security, the biggest vulnerability to company data is 
-            still the human factor!
-            <br></br><br></br> 
-            We are firm believers in not only implementing a full-stack security solution but training employees on how best to use it. This 
-            ensures that you are not only protecting your staff, but your staff is actively protecting your business.</h2>
-      <br></br>
+     <div className={styles.priApprCards}>
+        <h4 className={styles.longCard}>
+          <a className={styles.aStyle}>
+          <FontAwesomeIcon icon={faUserShield} size="1x"/>
+            <br></br>
+            SECURE
+          </a>
+          <p>
+            <br></br>
+            Develope a foundation of security to protect modern businesses from growing information security threats and concerns.
+          </p>
+          </h4>
+        <h4 className={styles.shortCard}/>
       </div>
+          <br></br> 
 
-      <div className={styles.singleCards}>
-      <h1 className={styles.smallLine}></h1>
-      <h1 className={styles.subHeadCard}>SCALABILITY</h1>
-      <h1 className={styles.smallLine}></h1>
-            <h2 className={styles.largeCard}>As companies grow, one challenge often faced is how to prevent increases in operating costs from
-            eroding profit.
-            <br></br><br></br>
-            We take scalability and the growth of your business into account when designing or upgrading IT systems. Our goal is to put technology
-            to work for you, so costs remain low as your business grows.
-            </h2>
-      </div> 
-    <br></br><br></br>
+      <div className={styles.secApprCards}>
+          <h4 className={styles.shortCard}/>
+          <h4 className={styles.longCard}>
+          <a className={styles.aStyle}>
+            <FontAwesomeIcon icon={faGaugeSimpleHigh} size="1x"/>
+            <br></br>
+            EFFECTIVE
+          </a>
+          <p>
+            <br></br>
+            Provide the tools and training to run a business more efficiently, with improved productivity.
+          </p>
+          </h4>
+      </div>
+          <br></br>
+
+      <div className={styles.priApprCards}>
+          <h4 className={styles.longCard}>
+          <a className={styles.aStyle}>
+            <FontAwesomeIcon icon={faGear} size="1x"/>
+            <br></br>
+            RELIABILE
+          </a>
+          <p>
+            <br></br>
+            Design systems to be robust and dependable, removing the stress and frustration of IT system failure.
+          </p>
+          </h4>
+          <h4 className={styles.shortCard}/>
+      </div>
+      <br></br>
+
+      <div className={styles.secApprCards}>
+          <h4 className={styles.shortCard}/>
+          <h4 className={styles.longCard}>
+          <a className={styles.aStyle}>
+            <FontAwesomeIcon icon={faChartLine} size="1x"/>
+            <br></br>
+            SCALABLE
+          </a>
+          <p>
+            <br></br>
+            Create strategic recommendations tailored to fit long-term business plans, objectives, and desired growth.
+          </p>
+          </h4>
+      </div>
+          <br></br>
+
+      <div className={styles.priApprCards}>
+          <h4 className={styles.longCard}>
+          <a className={styles.aStyle}>
+          <FontAwesomeIcon icon={faArrowRotateForward} size="1x"/>
+            <br></br>
+            STRAIGHFORWARD
+          </a>
+          <p>
+            <br></br>
+            Enable effective IT decision-making through no-nonsense, easy-to-understand communication.
+          </p>
+          </h4>
+          <h4 className={styles.shortCard}/>
+      </div>
+      <br></br><br></br>
 
     <div className={styles.cards}>
       <h2 className={styles.smallCard}></h2>

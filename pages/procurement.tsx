@@ -39,26 +39,26 @@ const procurement = () => {
       <h3 className={styles.smallLine}></h3>
 
 
-        <h3 className={styles.subHeadCard1}>Easy & Efficient Procurement</h3>
+        <h3 className={styles.subHeadCard}>Easy & Efficient Procurement</h3>
             <p className={styles.largeCard}>We work with you to determine what technology best suits your needs and budget, then we put in the effort to find and aquire it for you.</p>
-        <h3 className={styles.subHeadCard1}>Expert Installation & Integration</h3>
+        <h3 className={styles.subHeadCard}>Expert Installation & Integration</h3>
             <p className={styles.largeCard}>Once the new hardware or software arrives, our team will work with your schedule to quickly install it when convenient for you.</p>
-        <h3 className={styles.subHeadCard1}>New Product Training & Support</h3>
+        <h3 className={styles.subHeadCard}>New Product Training & Support</h3>
             <p className={styles.largeCard}>Our team of experts is prepared to train your team to use the new hardware or software, and answer any questions as needed.</p>  
-        <h3 className={styles.subHeadCard1}>Product Maintenance & Licensing Management</h3>
+        <h3 className={styles.subHeadCard}>Product Maintenance & Licensing Management</h3>
             <p className={styles.largeCard}>The team at Apollo will also routinely monitor your systems to ensure they are updated and functioning properly.</p>
 
     </div>
     <br></br>
     
     <div className={styles.cards}>
-      <h2 className={styles.smallCard}></h2>
-      <h2 className={styles.smallCard}>
+      <h2 className={styles.smallCard}/>
+      <button className={styles.contactCard}>
         <Link href="/#contact-section">
-          <button className={styles.collapsible}>FIND OUT MORE</button>
-        </Link> 
-      </h2>
-      <h2 className={styles.smallCard}></h2>
+          FIND OUT MORE
+        </Link>
+      </button>
+      <h2 className={styles.smallCard}/>
     </div>
     <br></br>
 
