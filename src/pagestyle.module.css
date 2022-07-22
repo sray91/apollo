@@ -394,9 +394,9 @@
 }
 
 .servImg {
-  width: inherit;
+  width: 250px;
   height: auto;
-  border-bottom: lightcyan 4px;
+  border-bottom: rgb(236, 121, 26) 4px;
   border-style: solid;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -823,8 +823,8 @@
   max-width: 75%;
   margin: auto;
   display: flex;
-  gap: 5px;
-  margin-bottom: 5px;
+  gap: 10px;
+  margin-bottom: 10px;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }

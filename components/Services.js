@@ -158,8 +158,8 @@ const Services = () => {
         <div className={styles.cards}>
           <h2 className={styles.smallCard}></h2>
           <button className={styles.contactCard}>
-            <Link href="/#contact-section">
-              FIND OUT MORE
+            <Link href="/contact">
+              CONTACT US
             </Link>
           </button>
           <h2 className={styles.smallCard}></h2>
